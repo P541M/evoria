@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-backgroundPrimary text-textAccent shadow-sm py-4">
+    <nav className="bg-backgroundPrimary text-textAccent shadow-sm h-16 flex items-center">
       <div className="container mx-auto flex justify-between items-center px-4">
         <h1 className="text-2xl font-serif font-bold">
           <Link to="/" className="hover:text-textAccent/70">
