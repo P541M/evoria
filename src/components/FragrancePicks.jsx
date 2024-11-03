@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 function FragrancePicks() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
-      {/* Added responsive padding for mobile and tablet */}
-      <h2 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent text-center mb-12 sm:mb-16 leading-tight">
+      {/* Main Title with fast fade-up */}
+      <h2 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent text-center mb-12 sm:mb-16 leading-tight fade-up">
         Scent Stories
       </h2>
 
       <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto space-y-12 sm:space-y-16">
-        <div>
+        {/* Profile section with delayed fade-up */}
+        <div className="fade-up-two">
           <h3 className="text-2xl sm:text-3xl font-serif font-semibold text-textPrimary mb-4">
             Rachel Ruston
           </h3>

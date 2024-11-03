@@ -5,12 +5,13 @@ function RachelRuston() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 text-center leading-tight">
+        {/* Main Title */}
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 text-center leading-tight fade-up">
           Rachel Ruston
         </h1>
 
         {/* Signature Daytime Scent Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 fade-up-two">
           <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Signature Daytime Scent: Parfums de Marly Delina Exclusif
           </h2>
@@ -78,7 +79,7 @@ function RachelRuston() {
         </section>
 
         {/* Evening Opulence Section */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 fade-up-three">
           <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Evening Opulence: Carolina Herrera Good Girl Suprême
           </h2>
@@ -145,7 +146,7 @@ function RachelRuston() {
         </section>
 
         {/* Back Link */}
-        <div className="flex justify-center">
+        <div className="flex justify-center fade-up-four">
           <Link
             to="/scentful-stories"
             className="mt-8 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
