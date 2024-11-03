@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary py-12 px-8">
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-6 sm:px-8 lg:px-16">
       <div className="max-w-3xl mx-auto">
         {/* Title */}
-        <h1 className="text-5xl font-serif font-bold text-textPrimary mb-12 text-center leading-tight">
+        <h1 className="text-5xl font-serif font-bold text-textAccent mb-12 text-center leading-tight">
           Rachel Ruston
         </h1>
 
@@ -20,12 +20,12 @@ function RachelRuston() {
               Why Delina Exclusif?
             </strong>{" "}
             Delina Exclusif is an exceptional choice for daily wear because it
-            embodies a balance of elegance, strength, and
-            approachability—qualities that truly reflect you. This fragrance
-            combines sophistication with subtle warmth, making it feel polished
-            yet inviting. It’s refined enough for a professional setting and
-            carries an air of authority without overwhelming those around you,
-            aligning perfectly with your powerful yet nurturing energy.
+            embodies a balance of elegance, strength, and approachability—
+            qualities that truly reflect you. This fragrance combines
+            sophistication with subtle warmth, making it feel polished yet
+            inviting. It’s refined enough for a professional setting and carries
+            an air of authority without overwhelming those around you, aligning
+            perfectly with your powerful yet nurturing energy.
           </p>
 
           <div className="mb-8">
@@ -129,7 +129,7 @@ function RachelRuston() {
         <div className="flex justify-center">
           <Link
             to="/fragrance-picks"
-            className="mt-8 px-6 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
+            className="mt-8 px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
           >
             Back to Scent Stories
           </Link>

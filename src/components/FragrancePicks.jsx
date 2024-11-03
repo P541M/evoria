@@ -3,15 +3,13 @@ import { Link } from "react-router-dom";
 
 function FragrancePicks() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary py-12 px-8">
-      {/* Page Title */}
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-6 sm:px-8 lg:px-16">
+      {/* Added pt-16 to account for navbar */}
       <h2 className="text-5xl font-serif font-bold text-textAccent text-center mb-16 leading-tight">
         Scent Stories
       </h2>
 
-      {/* Profiles Section */}
       <div className="max-w-4xl mx-auto space-y-16">
-        {/* Profile 1 */}
         <div>
           <h3 className="text-3xl font-serif font-semibold text-textPrimary mb-4">
             Rachel Ruston
@@ -29,9 +27,6 @@ function FragrancePicks() {
             View Full Story
           </Link>
         </div>
-
-        {/* Additional Profiles */}
-        {/* You can add more profiles here following the same structure */}
       </div>
     </div>
   );
