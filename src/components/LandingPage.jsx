@@ -5,11 +5,12 @@ function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)] bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary text-center px-6 sm:px-8 lg:px-16">
-      <h1 className="text-5xl font-serif font-bold text-textAccent mb-12 leading-tight">
+    <div className="flex flex-col items-center justify-center h-[calc(100vh-4rem)] bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary text-center px-4 sm:px-6 md:px-8 lg:px-16">
+      {/* Adjusted responsive padding for different screen sizes */}
+      <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 leading-tight">
         Welcome to Scentful Stories
       </h1>
-      <div className="text-lg text-textPrimary mb-12 max-w-2xl leading-relaxed space-y-8">
+      <div className="text-base sm:text-lg text-textPrimary mb-8 sm:mb-12 max-w-xl sm:max-w-2xl leading-relaxed space-y-6 sm:space-y-8">
         <p>
           Scentful Stories is a curated journey through the world of fragrance.
           Each selection reflects a unique character, chosen to capture an
@@ -27,8 +28,8 @@ function LandingPage() {
         </p>
       </div>
       <button
-        onClick={() => navigate("/fragrance-picks")}
-        className="px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
+        onClick={() => navigate("/scentful-stories")}
+        className="px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
       >
         Discover Scent Stories
       </button>

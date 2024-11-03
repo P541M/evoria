@@ -3,19 +3,20 @@ import { Link } from "react-router-dom";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-6 sm:px-8 lg:px-16">
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
+      {/* Added responsive padding for mobile and tablet */}
       <div className="max-w-3xl mx-auto">
         {/* Title */}
-        <h1 className="text-5xl font-serif font-bold text-textAccent mb-12 text-center leading-tight">
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 text-center leading-tight">
           Rachel Ruston
         </h1>
 
         {/* Signature Daytime Scent Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
+        <section className="mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Signature Daytime Scent: Parfums de Marly Delina Exclusif
           </h2>
-          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Delina Exclusif?
             </strong>{" "}
@@ -28,11 +29,11 @@ function RachelRuston() {
             perfectly with your powerful yet nurturing energy.
           </p>
 
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold text-textAccent mb-2">
+          <div className="mb-6 sm:mb-8">
+            <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-2">
               Notes:
             </h3>
-            <ul className="list-disc list-inside text-textPrimary ml-6 space-y-2">
+            <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
               <li>
                 <strong>Top Notes:</strong> Pear, Lychee, Grapefruit
               </li>
@@ -46,7 +47,7 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
             Delina Exclusif is ideal for day-to-day office wear, where you need
             something that quietly commands respect but remains soft and
@@ -54,7 +55,7 @@ function RachelRuston() {
             perfect for an everyday fragrance that won’t be overpowering.
           </p>
 
-          <p className="text-textPrimary leading-relaxed text-lg">
+          <p className="text-textPrimary leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Pick Delina Exclusif for Certain Days?
             </strong>{" "}
@@ -68,11 +69,11 @@ function RachelRuston() {
         </section>
 
         {/* Evening Opulence Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
+        <section className="mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Evening Opulence: Carolina Herrera Good Girl Suprême
           </h2>
-          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Good Girl Suprême?
             </strong>{" "}
@@ -86,11 +87,11 @@ function RachelRuston() {
             presence.
           </p>
 
-          <div className="mb-8">
-            <h3 className="text-xl font-semibold text-textAccent mb-2">
+          <div className="mb-6 sm:mb-8">
+            <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-2">
               Notes:
             </h3>
-            <ul className="list-disc list-inside text-textPrimary ml-6 space-y-2">
+            <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
               <li>
                 <strong>Top Notes:</strong> Juicy Berries, Egyptian Jasmine
               </li>
@@ -103,7 +104,7 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
             Good Girl Suprême is best suited for social or evening events where
             a more pronounced, memorable fragrance is appropriate. The balance
@@ -112,7 +113,7 @@ function RachelRuston() {
             can make a statement.
           </p>
 
-          <p className="text-textPrimary leading-relaxed text-lg">
+          <p className="text-textPrimary leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Pick Good Girl Suprême for Certain Days?
             </strong>{" "}
@@ -128,8 +129,8 @@ function RachelRuston() {
         {/* Back Link */}
         <div className="flex justify-center">
           <Link
-            to="/fragrance-picks"
-            className="mt-8 px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
+            to="/scentful-stories"
+            className="mt-8 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
           >
             Back to Scent Stories
           </Link>

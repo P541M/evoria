@@ -27,8 +27,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/fragrance-picks" element={<FragrancePicks />} />
-        <Route path="/fragrance-picks/:profileId" element={<ProfileLoader />} />
+        <Route path="/scentful-stories" element={<FragrancePicks />} />
+        <Route path="/scentful-stories/:profileId" element={<ProfileLoader />} />
       </Routes>
     </Router>
   );
