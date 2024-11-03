@@ -6,13 +6,19 @@ function RachelRuston() {
     <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
       <div className="max-w-4xl mx-auto">
         {/* Main Title */}
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 text-center leading-tight fade-up">
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-6 sm:mb-10 text-center leading-tight fade-up">
           Rachel Ruston
         </h1>
 
+        {/* Personalized Intro */}
+        <p className="text-lg sm:text-xl italic text-highlight text-center mb-8 sm:mb-10 fade-up">
+          "A fragrance as graceful as your warmth, as powerful as your
+          presence."
+        </p>
+
         {/* Signature Daytime Scent Section */}
         <section className="mb-12 sm:mb-16 fade-up-two">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 sm:mb-6 border-b pb-2 border-textAccent/40">
             Signature Daytime Scent: Parfums de Marly Delina Exclusif
           </h2>
           <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
@@ -20,12 +26,12 @@ function RachelRuston() {
               Why Delina Exclusif?
             </strong>{" "}
             Delina Exclusif is an exceptional choice for daily wear because it
-            embodies a balance of elegance, strength, and approachability—
-            qualities that truly reflect you. This fragrance combines
-            sophistication with subtle warmth, making it feel polished yet
-            inviting. It’s refined enough for a professional setting and carries
-            an air of authority without overwhelming those around you, aligning
-            perfectly with your powerful yet nurturing energy.
+            embodies a balance of elegance, strength, and
+            approachability—qualities that truly reflect you. This fragrance
+            combines sophistication with subtle warmth, making it feel polished
+            yet inviting. It’s refined enough for a professional setting and
+            carries an air of authority without overwhelming those around you,
+            aligning perfectly with your powerful yet nurturing energy.
           </p>
 
           <div className="mb-6 sm:mb-8">
@@ -80,7 +86,7 @@ function RachelRuston() {
 
         {/* Evening Opulence Section */}
         <section className="mb-12 sm:mb-16 fade-up-three">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 sm:mb-6 border-b pb-2 border-textAccent/40">
             Evening Opulence: Carolina Herrera Good Girl Suprême
           </h2>
           <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">

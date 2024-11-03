@@ -8,7 +8,7 @@ module.exports = {
         backgroundSecondary: "#F9FAFB", // Off White for containers
         textPrimary: "#1C1F23", // Charcoal Black for main text
         textAccent: "#3A4A58", // Slate Blue for headings
-        highlight: "#98A4AE", // Muted Silver Blue for highlights
+        highlight: "#6C7A89", // Darker Silver Blue for highlights
       },
     },
   },
