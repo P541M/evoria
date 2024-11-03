@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        backgroundPrimary: "#F7F3EB",   // warmCream for backgrounds
-        backgroundSecondary: "#FFFFFF", // white for cards and containers
-        textPrimary: "#2D3748",         // darkSlate for main text
-        textAccent: "#4A5568",          // deepBlue for headings and accents
-        highlight: "#D4B483",           // softGold for highlights
+        backgroundPrimary: "#E6E8EA", // Cool Gray for background
+        backgroundSecondary: "#F9FAFB", // Off White for containers
+        textPrimary: "#1C1F23", // Charcoal Black for main text
+        textAccent: "#3A4A58", // Slate Blue for headings
+        highlight: "#98A4AE", // Muted Silver Blue for highlights
       },
     },
   },
