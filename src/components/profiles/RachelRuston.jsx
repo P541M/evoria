@@ -3,19 +3,22 @@ import { Link } from "react-router-dom";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-12 px-6">
-      <div className="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg border border-gray-200">
-        <h1 className="text-4xl font-serif font-bold text-gray-800 mb-8 text-center">
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary py-12 px-8">
+      <div className="max-w-3xl mx-auto">
+        {/* Title */}
+        <h1 className="text-5xl font-serif font-bold text-textPrimary mb-12 text-center leading-tight">
           Rachel Ruston
         </h1>
 
-        {/* Signature Daytime Scent */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-700 mb-4 border-b pb-2 border-gray-300">
+        {/* Signature Daytime Scent Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Signature Daytime Scent: Parfums de Marly Delina Exclusif
           </h2>
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">Why Delina Exclusif?</strong>{" "}
+          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">
+              Why Delina Exclusif?
+            </strong>{" "}
             Delina Exclusif is an exceptional choice for daily wear because it
             embodies a balance of elegance, strength, and
             approachability—qualities that truly reflect you. This fragrance
@@ -25,9 +28,11 @@ function RachelRuston() {
             aligning perfectly with your powerful yet nurturing energy.
           </p>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-600">Notes:</h3>
-            <ul className="list-disc list-inside text-gray-600 ml-4">
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold text-textAccent mb-2">
+              Notes:
+            </h3>
+            <ul className="list-disc list-inside text-textPrimary ml-6 space-y-2">
               <li>
                 <strong>Top Notes:</strong> Pear, Lychee, Grapefruit
               </li>
@@ -41,16 +46,16 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">Occasion:</strong> Delina Exclusif
-            is ideal for day-to-day office wear, where you need something that
-            quietly commands respect but remains soft and inviting. Its warm,
-            fruity notes create a subtle signature scent, perfect for an
-            everyday fragrance that won’t be overpowering.
+          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
+            Delina Exclusif is ideal for day-to-day office wear, where you need
+            something that quietly commands respect but remains soft and
+            inviting. Its warm, fruity notes create a subtle signature scent,
+            perfect for an everyday fragrance that won’t be overpowering.
           </p>
 
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">
+          <p className="text-textPrimary leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">
               Why Pick Delina Exclusif for Certain Days?
             </strong>{" "}
             Choose Delina Exclusif when you want to make a steady, professional
@@ -62,13 +67,15 @@ function RachelRuston() {
           </p>
         </section>
 
-        {/* Evening Opulence */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-gray-700 mb-4 border-b pb-2 border-gray-300">
+        {/* Evening Opulence Section */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Evening Opulence: Carolina Herrera Good Girl Suprême
           </h2>
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">Why Good Girl Suprême?</strong>{" "}
+          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">
+              Why Good Girl Suprême?
+            </strong>{" "}
             Good Girl Suprême brings a touch of boldness and sophistication that
             shines in social settings. This fragrance resonates with your
             natural ability to stand out effortlessly while staying grounded.
@@ -79,9 +86,11 @@ function RachelRuston() {
             presence.
           </p>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-600">Notes:</h3>
-            <ul className="list-disc list-inside text-gray-600 ml-4">
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold text-textAccent mb-2">
+              Notes:
+            </h3>
+            <ul className="list-disc list-inside text-textPrimary ml-6 space-y-2">
               <li>
                 <strong>Top Notes:</strong> Juicy Berries, Egyptian Jasmine
               </li>
@@ -94,17 +103,17 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">Occasion:</strong> Good Girl
-            Suprême is best suited for social or evening events where a more
-            pronounced, memorable fragrance is appropriate. The balance of
-            richness and elegance makes it ideal for dinners, gatherings, or
+          <p className="text-textPrimary mb-8 leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
+            Good Girl Suprême is best suited for social or evening events where
+            a more pronounced, memorable fragrance is appropriate. The balance
+            of richness and elegance makes it ideal for dinners, gatherings, or
             professional social events where a bolder yet sophisticated scent
             can make a statement.
           </p>
 
-          <p className="text-gray-700 mb-6 leading-relaxed">
-            <strong className="font-semibold">
+          <p className="text-textPrimary leading-relaxed text-lg">
+            <strong className="font-semibold text-highlight">
               Why Pick Good Girl Suprême for Certain Days?
             </strong>{" "}
             Opt for Good Girl Suprême on days when you have events or gatherings
@@ -116,12 +125,15 @@ function RachelRuston() {
           </p>
         </section>
 
-        <Link
-          to="/fragrance-picks"
-          className="inline-block mt-6 px-6 py-2 bg-gray-800 text-white font-semibold rounded shadow-md hover:bg-gray-700 transition duration-300"
-        >
-          Back to Scent Stories
-        </Link>
+        {/* Back Link */}
+        <div className="flex justify-center">
+          <Link
+            to="/fragrance-picks"
+            className="mt-8 px-6 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
+          >
+            Back to Scent Stories
+          </Link>
+        </div>
       </div>
     </div>
   );
