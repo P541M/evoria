@@ -9,14 +9,23 @@ function LandingPage() {
       <h1 className="text-5xl font-serif font-bold text-textAccent mb-10 leading-tight">
         Welcome to Scentful Stories
       </h1>
-      <p className="text-lg text-textPrimary mb-12 max-w-2xl leading-relaxed">
-        Hi, I’m Eleazar! Welcome to my little corner of the fragrance world,
-        where I believe in making life a bit better, one sniff at a time.
-        Scentful Stories is my passion project—a blog where I share my favorite
-        fragrance picks, each one chosen to reflect the unique essence of the
-        people I’ve had the pleasure of matching. Explore these curated scent
-        journeys, and maybe even find a bit of inspiration for your own.
-      </p>
+      <div className="text-lg text-textPrimary mb-12 max-w-2xl leading-relaxed space-y-6">
+        <p>
+          Scentful Stories is a curated journey through the world of fragrance.
+          Each selection reflects a unique character, chosen to capture an
+          individual’s essence.
+        </p>
+        <p>
+          Created by Eleazar, this project combines a deep appreciation for
+          scent with a dedication to storytelling. Every fragrance featured here
+          has been handpicked to inspire, evoke, and leave a lasting impression.
+        </p>
+        <p>
+          Explore these scent profiles and uncover a world where aroma meets
+          identity. Discover inspiration, find your signature, or simply enjoy
+          the artistry of fragrance.
+        </p>
+      </div>
       <button
         onClick={() => navigate("/fragrance-picks")}
         className="px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-lg"
