@@ -11,7 +11,10 @@ function FragrancePicks() {
         <div className="bg-white p-4 rounded-lg shadow-md">
           <h3 className="text-xl font-semibold text-gray-800">Rachel Ruston</h3>
           <p className="text-gray-600 mb-2">
-            A powerful yet warm personality, perfect for a sophisticated scent.
+            A natural leader with a powerful yet nurturing presence, exuding
+            warmth and sophistication. Rachel’s essence is like a blend of
+            cherry’s elegance and strawberry’s refreshing
+            sweetness—approachable, refined, and full of compassion.
           </p>
           <Link
             to="/fragrance-picks/rachel-ruston"
