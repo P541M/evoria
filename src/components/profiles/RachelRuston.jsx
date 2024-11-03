@@ -26,12 +26,15 @@ function RachelRuston() {
               Why Delina Exclusif?
             </strong>{" "}
             Delina Exclusif is an exceptional choice for daily wear because it
-            embodies a balance of elegance, strength, and
-            approachability—qualities that truly reflect you. This fragrance
-            combines sophistication with subtle warmth, making it feel polished
-            yet inviting. It’s refined enough for a professional setting and
-            carries an air of authority without overwhelming those around you,
-            aligning perfectly with your powerful yet nurturing energy.
+            embodies a balance of{" "}
+            <span className="bg-textAccent/10 italic">elegance</span>,{" "}
+            <span className="bg-textAccent/10 italic">strength</span>, and{" "}
+            <span className="bg-textAccent/10 italic">approachability</span>—
+            qualities that truly reflect you. This fragrance combines
+            sophistication with subtle warmth, making it feel polished yet
+            inviting. It’s refined enough for a professional setting and carries
+            an air of authority without overwhelming those around you, aligning
+            perfectly with your powerful yet nurturing energy.
           </p>
 
           <div className="mb-6 sm:mb-8">
@@ -75,12 +78,10 @@ function RachelRuston() {
             <strong className="font-semibold text-highlight">
               Why Pick Delina Exclusif for Certain Days?
             </strong>{" "}
-            Choose Delina Exclusif when you want to make a steady, professional
-            impression. Its fruity and musky undertones are both uplifting and
-            grounding, ideal for days with strategic meetings or interactions
-            that require your natural warmth to shine through. A light
-            application makes this fragrance blend seamlessly into your work
-            environment, complementing your aura of authority and compassion.
+            Imagine yourself stepping into important meetings, letting this
+            fragrance ground and uplift you. A light application makes this
+            fragrance blend seamlessly into your work environment, complementing
+            your aura of authority and compassion.
           </p>
         </section>
 
@@ -93,7 +94,9 @@ function RachelRuston() {
             <strong className="font-semibold text-highlight">
               Why Good Girl Suprême?
             </strong>{" "}
-            Good Girl Suprême brings a touch of boldness and sophistication that
+            Good Girl Suprême brings a touch of{" "}
+            <span className="bg-textAccent/10 italic">boldness</span> and{" "}
+            <span className="bg-textAccent/10 italic">sophistication</span> that
             shines in social settings. This fragrance resonates with your
             natural ability to stand out effortlessly while staying grounded.
             With its balance of berries, tonka bean, and vetiver, it’s both rich
@@ -142,12 +145,11 @@ function RachelRuston() {
             <strong className="font-semibold text-highlight">
               Why Pick Good Girl Suprême for Certain Days?
             </strong>{" "}
-            Opt for Good Girl Suprême on days when you have events or gatherings
-            after work. Its bolder presence and layered complexity make it
-            suitable for social situations where a touch of glamour is welcomed.
-            The grounding vetiver and warm tonka bean create a lasting
-            impression, making it a great choice for enhancing your presence
-            while still reflecting your warmth and strength.
+            Picture yourself at an evening gathering, letting Good Girl Suprême
+            enhance your natural elegance and charm. The grounding vetiver and
+            warm tonka bean create a lasting impression, making it a great
+            choice for enhancing your presence while still reflecting your
+            warmth and strength.
           </p>
         </section>
 

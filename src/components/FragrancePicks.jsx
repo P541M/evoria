@@ -16,10 +16,14 @@ function FragrancePicks() {
             Rachel Ruston
           </h3>
           <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
-            A natural leader with a powerful yet nurturing presence, exuding
-            warmth and sophistication. Rachel’s essence is a blend of cherry’s
-            elegance and strawberry’s refreshing sweetness—approachable,
-            refined, and full of compassion.
+            With a presence that radiates grace and authority, Rachel embodies a
+            harmonious blend of <span className="italic">strength</span> and{" "}
+            <span className="italic">warmth</span>. Her scent profile mirrors
+            her elegance and depth, from daytime notes that evoke a sense of
+            polished calm to evening fragrances that amplify her natural
+            charisma. Rachel’s story is one of sophistication and empathy,
+            delicately crafted through scents that feel as powerful and inviting
+            as she is.
           </p>
           <Link
             to="/scentful-stories/rachel-ruston"
