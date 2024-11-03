@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
-      {/* Added responsive padding for mobile and tablet */}
-      <div className="max-w-3xl mx-auto">
-        {/* Title */}
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
+      <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 sm:mb-12 text-center leading-tight">
           Rachel Ruston
         </h1>
@@ -16,7 +14,7 @@ function RachelRuston() {
           <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Signature Daytime Scent: Parfums de Marly Delina Exclusif
           </h2>
-          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
+          <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Delina Exclusif?
             </strong>{" "}
@@ -35,17 +33,28 @@ function RachelRuston() {
             </h3>
             <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
               <li>
-                <strong>Top Notes:</strong> Pear, Lychee, Grapefruit
+                <strong>Top Notes:</strong> Litchi, Pear, Bergamot, Grapefruit,
+                Pink Pepper
               </li>
               <li>
-                <strong>Heart Notes:</strong> Turkish Rose, Incense, Vetiver
+                <strong>Heart Notes:</strong> Turkish Rose, Agarwood (Oud),
+                Incense
               </li>
               <li>
-                <strong>Base Notes:</strong> Vanilla, Musk, Evernyl (a woody
-                moss-like note), and Oud
+                <strong>Base Notes:</strong> Vanilla, Amber, Woody Notes, Musk,
+                Vetiver, Evernyl
               </li>
             </ul>
           </div>
+
+          <a
+            href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-6"
+          >
+            Learn more about Delina Exclusif on Fragrantica
+          </a>
 
           <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
@@ -73,7 +82,7 @@ function RachelRuston() {
           <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-4 border-b pb-2 border-textAccent/40">
             Evening Opulence: Carolina Herrera Good Girl Suprême
           </h2>
-          <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
+          <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">
               Why Good Girl Suprême?
             </strong>{" "}
@@ -93,16 +102,25 @@ function RachelRuston() {
             </h3>
             <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
               <li>
-                <strong>Top Notes:</strong> Juicy Berries, Egyptian Jasmine
+                <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
               </li>
               <li>
-                <strong>Heart Notes:</strong> Tonka Bean
+                <strong>Heart Notes:</strong> Tonka Bean, Tuberose
               </li>
               <li>
-                <strong>Base Notes:</strong> Vetiver (an earthy, grounding note)
+                <strong>Base Notes:</strong> Vetiver
               </li>
             </ul>
           </div>
+
+          <a
+            href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-6"
+          >
+            Learn more about Good Girl Suprême on Fragrantica
+          </a>
 
           <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function FragrancePicks() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-16 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
       {/* Added responsive padding for mobile and tablet */}
       <h2 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent text-center mb-12 sm:mb-16 leading-tight">
         Scent Stories
