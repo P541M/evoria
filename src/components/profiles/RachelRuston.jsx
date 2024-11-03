@@ -57,15 +57,6 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <a
-            href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-6"
-          >
-            Learn more about Delina Exclusif on Fragrantica
-          </a>
-
           <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
             Delina Exclusif is ideal for day-to-day office wear, where you need
@@ -83,6 +74,15 @@ function RachelRuston() {
             fragrance blend seamlessly into your work environment, complementing
             your aura of authority and compassion.
           </p>
+
+          <a
+            href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mt-6"
+          >
+            Learn more about Delina Exclusif on Fragrantica
+          </a>
         </section>
 
         {/* Evening Opulence Section */}
@@ -123,15 +123,6 @@ function RachelRuston() {
             </ul>
           </div>
 
-          <a
-            href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-6"
-          >
-            Learn more about Good Girl Suprême on Fragrantica
-          </a>
-
           <p className="text-textPrimary mb-6 sm:mb-8 leading-relaxed text-base sm:text-lg">
             <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
             Good Girl Suprême is best suited for social or evening events where
@@ -151,6 +142,15 @@ function RachelRuston() {
             choice for enhancing your presence while still reflecting your
             warmth and strength.
           </p>
+
+          <a
+            href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-highlight hover:text-highlight/70 transition duration-200 underline mt-6"
+          >
+            Learn more about Good Girl Suprême on Fragrantica
+          </a>
         </section>
 
         {/* Back Link */}
