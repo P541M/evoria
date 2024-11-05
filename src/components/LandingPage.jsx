@@ -27,7 +27,7 @@ function LandingPage() {
 
       {/* Button with the final fade-up */}
       <button
-        onClick={() => navigate("/scentful-stories")}
+        onClick={() => navigate("/stories")}
         className="px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg fade-up-four"
       >
         Discover Scent Stories

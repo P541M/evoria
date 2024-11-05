@@ -156,7 +156,7 @@ function RachelRuston() {
         {/* Back Link */}
         <div className="flex justify-center fade-up-four">
           <Link
-            to="/scentful-stories"
+            to="/stories"
             className="mt-8 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
           >
             Back to Scent Stories

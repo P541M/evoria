@@ -26,7 +26,7 @@ function FragrancePicks() {
             as she is.
           </p>
           <Link
-            to="/scentful-stories/rachel-ruston"
+            to="/stories/rachel-ruston"
             className="text-highlight font-medium text-base sm:text-lg hover:text-highlight/70 transition duration-200"
           >
             View Full Story
