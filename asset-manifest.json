@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fragrance-picks/static/css/main.cdbfe3cc.css",
+    "main.js": "/fragrance-picks/static/js/main.b6b326b3.js",
+    "index.html": "/fragrance-picks/index.html",
+    "main.cdbfe3cc.css.map": "/fragrance-picks/static/css/main.cdbfe3cc.css.map",
+    "main.b6b326b3.js.map": "/fragrance-picks/static/js/main.b6b326b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdbfe3cc.css",
+    "static/js/main.b6b326b3.js"
+  ]
+}
