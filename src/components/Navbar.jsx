@@ -27,6 +27,12 @@ function Navbar() {
           >
             Scent Stories
           </Link>
+          <Link
+            to="/vocab"
+            className="hover:text-textAccent/70 transition duration-200"
+          >
+            Vocab
+          </Link>
         </div>
       </div>
 
@@ -39,6 +45,13 @@ function Navbar() {
             onClick={() => setIsOpen(false)}
           >
             Scent Stories
+          </Link>
+          <Link
+            to="/vocab"
+            className="block py-2 text-lg font-medium text-textAccent hover:text-highlight transition duration-200"
+            onClick={() => setIsOpen(false)}
+          >
+            Vocab
           </Link>
         </div>
       )}

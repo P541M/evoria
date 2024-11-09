@@ -12,7 +12,7 @@ function FragrancePicks() {
       <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto space-y-12 sm:space-y-16">
         {/* Profile section with delayed fade-up */}
         <div className="fade-up-two">
-          <h3 className="text-2xl sm:text-3xl font-serif font-semibold text-textPrimary mb-4">
+          <h3 className="text-2xl sm:text-3xl font-serif font-semibold text-textPrimary mb-4 border-b pb-2 border-textAccent/40">
             Rachel Ruston
           </h3>
           <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
