@@ -16,14 +16,12 @@ function FragrancePicks() {
             Rachel Ruston
           </h3>
           <p className="text-textPrimary mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg">
-            With a presence that radiates grace and authority, Rachel embodies a
-            harmonious blend of <span className="italic">strength</span> and{" "}
-            <span className="italic">warmth</span>. Her scent profile mirrors
-            her elegance and depth, from daytime notes that evoke a sense of
-            polished calm to evening fragrances that amplify her natural
-            charisma. Rachel’s story is one of sophistication and empathy,
-            delicately crafted through scents that feel as powerful and inviting
-            as she is.
+            Rachel radiates grace and authority, embodying both{" "}
+            <span className="italic">strength</span> and{" "}
+            <span className="italic">warmth</span>. Her scent profile captures
+            her elegance, from daytime notes of calm to evening fragrances that
+            enhance her charisma. Rachel’s story is one of sophistication and
+            empathy, reflected through scents as inviting as she is.
           </p>
           <Link
             to="/stories/rachel-ruston"
