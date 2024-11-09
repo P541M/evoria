@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   useParams,
@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/scentful-stories" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/stories" element={<FragrancePicks />} />
         <Route path="/stories/:profileId" element={<ProfileLoader />} />
       </Routes>
