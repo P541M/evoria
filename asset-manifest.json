@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fragrance-picks/static/css/main.cdbfe3cc.css",
-    "main.js": "/fragrance-picks/static/js/main.b6b326b3.js",
-    "index.html": "/fragrance-picks/index.html",
-    "main.cdbfe3cc.css.map": "/fragrance-picks/static/css/main.cdbfe3cc.css.map",
-    "main.b6b326b3.js.map": "/fragrance-picks/static/js/main.b6b326b3.js.map"
+    "main.css": "/scentful-stories/static/css/main.cdbfe3cc.css",
+    "main.js": "/scentful-stories/static/js/main.8770f551.js",
+    "index.html": "/scentful-stories/index.html",
+    "main.cdbfe3cc.css.map": "/scentful-stories/static/css/main.cdbfe3cc.css.map",
+    "main.8770f551.js.map": "/scentful-stories/static/js/main.8770f551.js.map"
   },
   "entrypoints": [
     "static/css/main.cdbfe3cc.css",
-    "static/js/main.b6b326b3.js"
+    "static/js/main.8770f551.js"
   ]
 }
