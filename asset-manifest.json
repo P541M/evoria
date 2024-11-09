@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scentful-stories/static/css/main.cdbfe3cc.css",
-    "main.js": "/scentful-stories/static/js/main.07699f6f.js",
+    "main.js": "/scentful-stories/static/js/main.5cb2ea4f.js",
     "index.html": "/scentful-stories/index.html",
     "main.cdbfe3cc.css.map": "/scentful-stories/static/css/main.cdbfe3cc.css.map",
-    "main.07699f6f.js.map": "/scentful-stories/static/js/main.07699f6f.js.map"
+    "main.5cb2ea4f.js.map": "/scentful-stories/static/js/main.5cb2ea4f.js.map"
   },
   "entrypoints": [
     "static/css/main.cdbfe3cc.css",
-    "static/js/main.07699f6f.js"
+    "static/js/main.5cb2ea4f.js"
   ]
 }
