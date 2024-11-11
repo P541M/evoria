@@ -24,7 +24,7 @@ function RachelRuston() {
           <img
             src={img1}
             alt="Delina Exclusif Bottle"
-            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-6"
+            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-xl shadow-lg mb-6 md:mb-0 md:mr-6"
           />
 
           <div className="flex-1">
@@ -48,7 +48,7 @@ function RachelRuston() {
               <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="text-base sm:text-lg list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
                 <li>
                   <strong>Top Notes:</strong> Litchi, Pear, Bergamot,
                   Grapefruit, Pink Pepper
@@ -101,7 +101,7 @@ function RachelRuston() {
           <img
             src={img2}
             alt="Good Girl Suprême Bottle"
-            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-6"
+            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-xl shadow-lg mb-6 md:mb-0 md:mr-6"
           />
 
           <div className="flex-1">
@@ -125,7 +125,7 @@ function RachelRuston() {
               <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="text-base sm:text-lg list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
                 <li>
                   <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
                 </li>
