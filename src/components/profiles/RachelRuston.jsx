@@ -43,11 +43,11 @@ function RachelRuston() {
               aligning perfectly with your powerful yet nurturing energy.
             </p>
 
-            <div className="mb-5">
+            <div>
               <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-1">
+              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
                 <li>
                   <strong>Top Notes:</strong> Litchi, Pear, Bergamot,
                   Grapefruit, Pink Pepper
@@ -119,11 +119,11 @@ function RachelRuston() {
               presence.
             </p>
 
-            <div className="mb-5">
+            <div>
               <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-1">
+              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
                 <li>
                   <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
                 </li>
