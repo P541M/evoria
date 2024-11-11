@@ -5,29 +5,29 @@ import img2 from "../../assets/rr2.jpg";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-24 py-12 px-4 sm:px-6 md:px-8 lg:px-16">
+    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-20 pb-12 px-4 sm:px-6 md:px-10 lg:px-16">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-8 text-center leading-tight fade-up">
+        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-6 sm:mb-8 text-center leading-tight fade-up">
           Rachel Ruston
         </h1>
 
-        <p className="text-lg sm:text-xl italic text-highlight text-center mb-10 fade-up">
+        <p className="text-lg sm:text-xl italic text-highlight text-center mb-8 sm:mb-10 fade-up">
           "A fragrance as graceful as your warmth, as powerful as your
           presence."
         </p>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-6 border-b pb-2 border-textAccent/40">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40">
           Signature Daytime Scent: Parfums de Marly Delina Exclusif
         </h2>
-        <section className="flex flex-col md:flex-row items-start mb-12 fade-up-two">
+        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-two">
           <img
             src={img1}
             alt="Delina Exclusif Bottle"
-            className="w-full md:w-1/3 rounded-lg shadow-lg mb-4 md:mb-0 md:mr-8"
+            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-6"
           />
 
           <div className="flex-1">
-            <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+            <p className="text-textPrimary mb-4 leading-relaxed text-base sm:text-lg">
               <strong className="font-semibold text-highlight">
                 Why Delina Exclusif?
               </strong>{" "}
@@ -43,11 +43,11 @@ function RachelRuston() {
               aligning perfectly with your powerful yet nurturing energy.
             </p>
 
-            <div className="mb-4">
-              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-4">
+            <div className="mb-5">
+              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-1">
                 <li>
                   <strong>Top Notes:</strong> Litchi, Pear, Bergamot,
                   Grapefruit, Pink Pepper
@@ -65,7 +65,7 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
           <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
           Delina Exclusif is ideal for day-to-day office wear, where you need
           something that quietly commands respect but remains soft and inviting.
@@ -73,7 +73,7 @@ function RachelRuston() {
           everyday fragrance that won’t be overpowering.
         </p>
 
-        <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
           <strong className="font-semibold text-highlight">
             Why Pick Delina Exclusif for Certain Days?
           </strong>{" "}
@@ -87,23 +87,23 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-12"
+          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12"
         >
           Learn more about Delina Exclusif on Fragrantica
         </a>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-6 border-b pb-2 border-textAccent/40">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40">
           Evening Opulence: Carolina Herrera Good Girl Suprême
         </h2>
-        <section className="flex flex-col md:flex-row items-start mb-12 fade-up-three">
+        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-three">
           <img
             src={img2}
             alt="Good Girl Suprême Bottle"
-            className="w-full md:w-1/3 rounded-lg shadow-lg mb-4 md:mb-0 md:mr-8"
+            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-lg shadow-lg mb-6 md:mb-0 md:mr-6"
           />
 
           <div className="flex-1">
-            <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+            <p className="text-textPrimary mb-4 leading-relaxed text-base sm:text-lg">
               <strong className="font-semibold text-highlight">
                 Why Good Girl Suprême?
               </strong>{" "}
@@ -119,11 +119,11 @@ function RachelRuston() {
               presence.
             </p>
 
-            <div className="mb-4">
-              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-4">
+            <div className="mb-5">
+              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
                 Notes:
               </h3>
-              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-1">
                 <li>
                   <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
                 </li>
@@ -138,7 +138,7 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
           <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
           Good Girl Suprême is best suited for social or evening events where a
           more pronounced, memorable fragrance is appropriate. The balance of
@@ -147,7 +147,7 @@ function RachelRuston() {
           make a statement.
         </p>
 
-        <p className="text-textPrimary mb-8 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
           <strong className="font-semibold text-highlight">
             Why Pick Good Girl Suprême for Certain Days?
           </strong>{" "}
@@ -162,7 +162,7 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-12"
+          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12"
         >
           Learn more about Good Girl Suprême on Fragrantica
         </a>
@@ -170,7 +170,7 @@ function RachelRuston() {
         <div className="flex justify-center fade-up-four">
           <Link
             to="/stories"
-            className="mt-8 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
+            className="mt-10 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
           >
             Back to Scent Stories
           </Link>
