@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/scentful-stories/static/css/main.cdbfe3cc.css",
-    "main.js": "/scentful-stories/static/js/main.3182be92.js",
+    "main.css": "/scentful-stories/static/css/main.2d38d8d4.css",
+    "main.js": "/scentful-stories/static/js/main.07e22955.js",
+    "static/media/rr2.jpg": "/scentful-stories/static/media/rr2.fe7a0d66e9f8c02876e3.jpg",
+    "static/media/rr1.jpg": "/scentful-stories/static/media/rr1.24742fc6df16d37f2ae3.jpg",
     "index.html": "/scentful-stories/index.html",
-    "main.cdbfe3cc.css.map": "/scentful-stories/static/css/main.cdbfe3cc.css.map",
-    "main.3182be92.js.map": "/scentful-stories/static/js/main.3182be92.js.map"
+    "main.2d38d8d4.css.map": "/scentful-stories/static/css/main.2d38d8d4.css.map",
+    "main.07e22955.js.map": "/scentful-stories/static/js/main.07e22955.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdbfe3cc.css",
-    "static/js/main.3182be92.js"
+    "static/css/main.2d38d8d4.css",
+    "static/js/main.07e22955.js"
   ]
 }
