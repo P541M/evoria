@@ -11,15 +11,16 @@ function RachelRuston() {
           Rachel Ruston
         </h1>
 
-        <p className="text-lg sm:text-xl italic text-highlight text-center mb-8 sm:mb-10 fade-up">
+        <p className="text-lg sm:text-xl italic text-highlight text-center mb-8 sm:mb-10 fade-up-two">
           "A fragrance as graceful as your warmth, as powerful as your
           presence."
         </p>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40 fade-up-three">
           Signature Daytime Scent: Parfums de Marly Delina Exclusif
         </h2>
-        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-two">
+
+        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-four">
           <img
             src={img1}
             alt="Delina Exclusif Bottle"
@@ -65,7 +66,7 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up">
           <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
           Delina Exclusif is ideal for day-to-day office wear, where you need
           something that quietly commands respect but remains soft and inviting.
@@ -73,7 +74,7 @@ function RachelRuston() {
           everyday fragrance that won’t be overpowering.
         </p>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-two">
           <strong className="font-semibold text-highlight">
             Why Pick Delina Exclusif for Certain Days?
           </strong>{" "}
@@ -87,15 +88,16 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12"
+          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12 fade-up-three"
         >
           Learn more about Delina Exclusif on Fragrantica
         </a>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40 fade-up">
           Evening Opulence: Carolina Herrera Good Girl Suprême
         </h2>
-        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-three">
+
+        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-two">
           <img
             src={img2}
             alt="Good Girl Suprême Bottle"
@@ -138,7 +140,7 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-three">
           <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
           Good Girl Suprême is best suited for social or evening events where a
           more pronounced, memorable fragrance is appropriate. The balance of
@@ -147,7 +149,7 @@ function RachelRuston() {
           make a statement.
         </p>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg">
+        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-four">
           <strong className="font-semibold text-highlight">
             Why Pick Good Girl Suprême for Certain Days?
           </strong>{" "}
@@ -162,12 +164,12 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12"
+          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12 fade-up"
         >
           Learn more about Good Girl Suprême on Fragrantica
         </a>
 
-        <div className="flex justify-center fade-up-four">
+        <div className="flex justify-center fade-up-two">
           <Link
             to="/stories"
             className="mt-10 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
