@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <nav className="fade-up fixed top-0 z-50 w-full bg-black text-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
-        <h1 className="font-playfair flex-1 text-center text-2xl sm:flex-none sm:text-left">
+        <h1 className="flex-1 text-center font-playfair text-2xl sm:flex-none sm:text-left">
           <Link to="/" className="transition duration-200 hover:text-offWhite">
-            Scentful Stories
+            Evoria
           </Link>
         </h1>
 
@@ -26,7 +26,7 @@ function Navbar() {
             to="/stories"
             className="transition duration-200 hover:text-offWhite"
           >
-            Scent Stories
+            Evoria Chapters
           </Link>
           <Link
             to="/vocab"
@@ -44,7 +44,7 @@ function Navbar() {
             className="block py-2 text-lg transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
-            Scent Stories
+            Evoria Chapters
           </Link>
           <Link
             to="/vocab"
