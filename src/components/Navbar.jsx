@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="fade-up fixed top-0 z-50 w-full bg-black text-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
-        <h1 className="flex-1 text-center font-serif text-2xl font-bold sm:flex-none sm:text-left">
+        <h1 className="flex-1 text-center font-serif text-2xl sm:flex-none sm:text-left">
           <Link to="/" className="transition duration-200 hover:text-offWhite">
             Scentful Stories
           </Link>
@@ -41,14 +41,14 @@ function Navbar() {
         <div className="fade-in-background absolute left-0 top-16 w-full bg-black bg-opacity-90 py-4 text-center">
           <Link
             to="/stories"
-            className="block py-2 text-lg font-medium transition duration-200 hover:text-offWhite"
+            className="block py-2 text-lg transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
             Scent Stories
           </Link>
           <Link
             to="/vocab"
-            className="block py-2 text-lg font-medium transition duration-200 hover:text-offWhite"
+            className="block py-2 text-lg transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
             Vocab

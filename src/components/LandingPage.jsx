@@ -6,7 +6,7 @@ function LandingPage() {
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black px-4 text-center text-white sm:px-6 md:px-8 lg:px-16">
-      <h1 className="fade-up mb-8 font-serif text-4xl font-bold sm:mb-12 sm:text-5xl">
+      <h1 className="fade-up mb-8 font-serif text-4xl sm:mb-12 sm:text-5xl">
         Welcome to Scentful Stories
       </h1>
 
@@ -25,7 +25,7 @@ function LandingPage() {
 
       <button
         onClick={() => navigate("/stories")}
-        className="fade-up-four rounded-full bg-white px-6 py-3 text-base font-semibold text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-lg"
+        className="fade-up-four rounded-full bg-white px-6 py-3 text-base text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-lg"
       >
         Discover Scent Stories
       </button>
