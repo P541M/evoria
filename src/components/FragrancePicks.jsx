@@ -25,7 +25,7 @@ function FragrancePicks() {
             to="/chapters/rachel-ruston"
             className="text-base underline transition duration-200 hover:text-offWhite sm:text-lg"
           >
-            View Full Story
+            View Full Chapter
           </Link>
         </div>
       </div>
