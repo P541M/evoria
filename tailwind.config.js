@@ -9,6 +9,7 @@ module.exports = {
         offWhite: "#cccccc",
       },
       fontFamily: {
+        sans: ["Onest", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
       },
     },
