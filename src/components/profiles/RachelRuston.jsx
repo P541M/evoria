@@ -29,9 +29,8 @@ function RachelRuston() {
 
           <div className="flex-1">
             <p className="mb-4 text-base text-white sm:text-lg">
-              <strong className="text-white">Why Delina Exclusif?</strong>{" "}
-              Delina Exclusif is an exceptional choice for daily wear because it
-              embodies a balance of{" "}
+              Why Delina Exclusif? Delina Exclusif is an exceptional choice for
+              daily wear because it embodies a balance of{" "}
               <span className="bg-white/10 italic">elegance</span>,{" "}
               <span className="bg-white/10 italic">strength</span>, and{" "}
               <span className="bg-white/10 italic">approachability</span>—
@@ -46,16 +45,12 @@ function RachelRuston() {
               <h3 className="mb-3 text-lg text-white sm:text-xl">Notes:</h3>
               <ul className="ml-4 list-inside list-disc space-y-2 text-base text-white sm:ml-6 sm:text-lg">
                 <li>
-                  <strong>Top Notes:</strong> Litchi, Pear, Bergamot,
-                  Grapefruit, Pink Pepper
+                  Top Notes: Litchi, Pear, Bergamot, Grapefruit, Pink Pepper
                 </li>
+                <li>Heart Notes: Turkish Rose, Agarwood (Oud), Incense</li>
                 <li>
-                  <strong>Heart Notes:</strong> Turkish Rose, Agarwood (Oud),
-                  Incense
-                </li>
-                <li>
-                  <strong>Base Notes:</strong> Vanilla, Amber, Woody Notes,
-                  Musk, Vetiver, Evernyl
+                  Base Notes: Vanilla, Amber, Woody Notes, Musk, Vetiver,
+                  Evernyl
                 </li>
               </ul>
             </div>
@@ -63,21 +58,17 @@ function RachelRuston() {
         </section>
 
         <p className="fade-up mb-6 text-base text-white sm:text-lg">
-          <strong className="text-white">Occasion:</strong> Delina Exclusif is
-          ideal for day-to-day office wear, where you need something that
-          quietly commands respect but remains soft and inviting. Its warm,
-          fruity notes create a subtle signature scent, perfect for an everyday
-          fragrance that won’t be overpowering.
+          Occasion: Delina Exclusif is ideal for day-to-day office wear, where
+          you need something that quietly commands respect but remains soft and
+          inviting. Its warm, fruity notes create a subtle signature scent,
+          perfect for an everyday fragrance that won’t be overpowering.
         </p>
 
         <p className="fade-up-two mb-6 text-base text-white sm:text-lg">
-          <strong className="text-white">
-            Why Pick Delina Exclusif for Certain Days?
-          </strong>{" "}
-          Imagine yourself stepping into important meetings, letting this
-          fragrance ground and uplift you. A light application makes this
-          fragrance blend seamlessly into your work environment, complementing
-          your aura of authority and compassion.
+          Why Pick Delina Exclusif for Certain Days? Imagine yourself stepping
+          into important meetings, letting this fragrance ground and uplift you.
+          A light application makes this fragrance blend seamlessly into your
+          work environment, complementing your aura of authority and compassion.
         </p>
 
         <a
@@ -102,8 +93,7 @@ function RachelRuston() {
 
           <div className="flex-1">
             <p className="mb-4 text-base text-white sm:text-lg">
-              <strong className="text-white">Why Good Girl Suprême?</strong>{" "}
-              Good Girl Suprême brings a touch of{" "}
+              Why Good Girl Suprême? Good Girl Suprême brings a touch of{" "}
               <span className="bg-white/10 italic">boldness</span> and{" "}
               <span className="bg-white/10 italic">sophistication</span> that
               shines in social settings. This fragrance resonates with your
@@ -118,38 +108,28 @@ function RachelRuston() {
             <div>
               <h3 className="mb-3 text-lg text-white sm:text-xl">Notes:</h3>
               <ul className="ml-4 list-inside list-disc space-y-2 text-base text-white sm:ml-6 sm:text-lg">
-                <li>
-                  <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
-                </li>
-                <li>
-                  <strong>Heart Notes:</strong> Tonka Bean, Tuberose
-                </li>
-                <li>
-                  <strong>Base Notes:</strong> Vetiver
-                </li>
+                <li>Top Notes: Forest Fruits, Egyptian Jasmine</li>
+                <li>Heart Notes: Tonka Bean, Tuberose</li>
+                <li>Base Notes: Vetiver</li>
               </ul>
             </div>
           </div>
         </section>
 
         <p className="fade-up-three mb-6 text-base text-white sm:text-lg">
-          <strong className="text-white">Occasion:</strong> Good Girl Suprême is
-          best suited for social or evening events where a more pronounced,
-          memorable fragrance is appropriate. The balance of richness and
-          elegance makes it ideal for dinners, gatherings, or professional
-          social events where a bolder yet sophisticated scent can make a
-          statement.
+          Occasion: Good Girl Suprême is best suited for social or evening
+          events where a more pronounced, memorable fragrance is appropriate.
+          The balance of richness and elegance makes it ideal for dinners,
+          gatherings, or professional social events where a bolder yet
+          sophisticated scent can make a statement.
         </p>
 
         <p className="fade-up-four mb-6 text-base text-white sm:text-lg">
-          <strong className="text-white">
-            Why Pick Good Girl Suprême for Certain Days?
-          </strong>{" "}
-          Picture yourself at an evening gathering, letting Good Girl Suprême
-          enhance your natural elegance and charm. The grounding vetiver and
-          warm tonka bean create a lasting impression, making it a great choice
-          for enhancing your presence while still reflecting your warmth and
-          strength.
+          Why Pick Good Girl Suprême for Certain Days? Picture yourself at an
+          evening gathering, letting Good Girl Suprême enhance your natural
+          elegance and charm. The grounding vetiver and warm tonka bean create a
+          lasting impression, making it a great choice for enhancing your
+          presence while still reflecting your warmth and strength.
         </p>
 
         <a
