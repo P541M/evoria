@@ -5,38 +5,38 @@ import img2 from "../../assets/rr2.jpg";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-backgroundPrimary to-backgroundSecondary pt-20 pb-12 px-4 sm:px-6 md:px-10 lg:px-16">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-serif font-bold text-textAccent mb-6 sm:mb-8 text-center leading-tight fade-up">
+    <div className="min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
+      <div className="mx-auto max-w-4xl">
+        <h1 className="fade-up mb-6 text-center font-serif text-4xl font-bold text-white sm:mb-8 sm:text-5xl">
           Rachel Ruston
         </h1>
 
-        <p className="text-lg sm:text-xl italic text-highlight text-center mb-8 sm:mb-10 fade-up-two">
+        <p className="fade-up-two mb-8 text-center text-lg italic text-white sm:mb-10 sm:text-xl">
           "A fragrance as graceful as your warmth, as powerful as your
           presence."
         </p>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40 fade-up-three">
+        <h2 className="fade-up-three mb-5 border-b border-white/40 pb-1 text-2xl font-semibold text-white sm:mb-6 sm:pb-2 sm:text-3xl">
           Signature Daytime Scent: Parfums de Marly Delina Exclusif
         </h2>
 
-        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-four">
+        <section className="fade-up-four mb-10 flex flex-col items-start sm:mb-12 md:flex-row">
           <img
             src={img1}
             alt="Delina Exclusif Bottle"
-            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-xl shadow-lg mb-6 md:mb-0 md:mr-6"
+            className="mx-auto mb-6 w-3/4 rounded-xl shadow-lg sm:w-2/3 md:mx-0 md:mb-0 md:mr-6 md:w-1/3"
           />
 
           <div className="flex-1">
-            <p className="text-textPrimary mb-4 leading-relaxed text-base sm:text-lg">
-              <strong className="font-semibold text-highlight">
+            <p className="mb-4 text-base text-white sm:text-lg">
+              <strong className="font-semibold text-white">
                 Why Delina Exclusif?
               </strong>{" "}
               Delina Exclusif is an exceptional choice for daily wear because it
               embodies a balance of{" "}
-              <span className="bg-textAccent/10 italic">elegance</span>,{" "}
-              <span className="bg-textAccent/10 italic">strength</span>, and{" "}
-              <span className="bg-textAccent/10 italic">approachability</span>—
+              <span className="bg-white/10 italic">elegance</span>,{" "}
+              <span className="bg-white/10 italic">strength</span>, and{" "}
+              <span className="bg-white/10 italic">approachability</span>—
               qualities that truly reflect you. This fragrance combines
               sophistication with subtle warmth, making it feel polished yet
               inviting. It’s refined enough for a professional setting and
@@ -45,10 +45,10 @@ function RachelRuston() {
             </p>
 
             <div>
-              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
+              <h3 className="mb-3 text-lg font-semibold text-white sm:text-xl">
                 Notes:
               </h3>
-              <ul className="text-base sm:text-lg list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="ml-4 list-inside list-disc space-y-2 text-base text-white sm:ml-6 sm:text-lg">
                 <li>
                   <strong>Top Notes:</strong> Litchi, Pear, Bergamot,
                   Grapefruit, Pink Pepper
@@ -66,16 +66,16 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up">
-          <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
-          Delina Exclusif is ideal for day-to-day office wear, where you need
-          something that quietly commands respect but remains soft and inviting.
-          Its warm, fruity notes create a subtle signature scent, perfect for an
-          everyday fragrance that won’t be overpowering.
+        <p className="fade-up mb-6 text-base text-white sm:text-lg">
+          <strong className="font-semibold text-white">Occasion:</strong> Delina
+          Exclusif is ideal for day-to-day office wear, where you need something
+          that quietly commands respect but remains soft and inviting. Its warm,
+          fruity notes create a subtle signature scent, perfect for an everyday
+          fragrance that won’t be overpowering.
         </p>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-two">
-          <strong className="font-semibold text-highlight">
+        <p className="fade-up-two mb-6 text-base text-white sm:text-lg">
+          <strong className="font-semibold text-white">
             Why Pick Delina Exclusif for Certain Days?
           </strong>{" "}
           Imagine yourself stepping into important meetings, letting this
@@ -88,31 +88,31 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12 fade-up-three"
+          className="fade-up-three mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
         >
           Learn more about Delina Exclusif on Fragrantica
         </a>
 
-        <h2 className="text-2xl sm:text-3xl font-semibold text-textAccent mb-5 sm:mb-6 border-b pb-1 sm:pb-2 border-textAccent/40 fade-up">
+        <h2 className="fade-up mb-5 border-b border-white/40 pb-1 text-2xl font-semibold text-white sm:mb-6 sm:pb-2 sm:text-3xl">
           Evening Opulence: Carolina Herrera Good Girl Suprême
         </h2>
 
-        <section className="flex flex-col md:flex-row items-start mb-10 sm:mb-12 fade-up-two">
+        <section className="fade-up-two mb-10 flex flex-col items-start sm:mb-12 md:flex-row">
           <img
             src={img2}
             alt="Good Girl Suprême Bottle"
-            className="w-3/4 sm:w-2/3 md:w-1/3 mx-auto md:mx-0 rounded-xl shadow-lg mb-6 md:mb-0 md:mr-6"
+            className="mx-auto mb-6 w-3/4 rounded-xl shadow-lg sm:w-2/3 md:mx-0 md:mb-0 md:mr-6 md:w-1/3"
           />
 
           <div className="flex-1">
-            <p className="text-textPrimary mb-4 leading-relaxed text-base sm:text-lg">
-              <strong className="font-semibold text-highlight">
+            <p className="mb-4 text-base text-white sm:text-lg">
+              <strong className="font-semibold text-white">
                 Why Good Girl Suprême?
               </strong>{" "}
               Good Girl Suprême brings a touch of{" "}
-              <span className="bg-textAccent/10 italic">boldness</span> and{" "}
-              <span className="bg-textAccent/10 italic">sophistication</span>{" "}
-              that shines in social settings. This fragrance resonates with your
+              <span className="bg-white/10 italic">boldness</span> and{" "}
+              <span className="bg-white/10 italic">sophistication</span> that
+              shines in social settings. This fragrance resonates with your
               natural ability to stand out effortlessly while staying grounded.
               With its balance of berries, tonka bean, and vetiver, it’s both
               rich and inviting—qualities that align with your leadership style
@@ -122,10 +122,10 @@ function RachelRuston() {
             </p>
 
             <div>
-              <h3 className="text-lg sm:text-xl font-semibold text-textAccent mb-3">
+              <h3 className="mb-3 text-lg font-semibold text-white sm:text-xl">
                 Notes:
               </h3>
-              <ul className="text-base sm:text-lg list-disc list-inside text-textPrimary ml-4 sm:ml-6 space-y-2">
+              <ul className="ml-4 list-inside list-disc space-y-2 text-base text-white sm:ml-6 sm:text-lg">
                 <li>
                   <strong>Top Notes:</strong> Forest Fruits, Egyptian Jasmine
                 </li>
@@ -140,17 +140,17 @@ function RachelRuston() {
           </div>
         </section>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-three">
-          <strong className="font-semibold text-highlight">Occasion:</strong>{" "}
-          Good Girl Suprême is best suited for social or evening events where a
-          more pronounced, memorable fragrance is appropriate. The balance of
+        <p className="fade-up-three mb-6 text-base text-white sm:text-lg">
+          <strong className="font-semibold text-white">Occasion:</strong> Good
+          Girl Suprême is best suited for social or evening events where a more
+          pronounced, memorable fragrance is appropriate. The balance of
           richness and elegance makes it ideal for dinners, gatherings, or
           professional social events where a bolder yet sophisticated scent can
           make a statement.
         </p>
 
-        <p className="text-textPrimary mb-6 leading-relaxed text-base sm:text-lg fade-up-four">
-          <strong className="font-semibold text-highlight">
+        <p className="fade-up-four mb-6 text-base text-white sm:text-lg">
+          <strong className="font-semibold text-white">
             Why Pick Good Girl Suprême for Certain Days?
           </strong>{" "}
           Picture yourself at an evening gathering, letting Good Girl Suprême
@@ -164,15 +164,15 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="block text-highlight hover:text-highlight/70 transition duration-200 underline mb-10 sm:mb-12 fade-up"
+          className="fade-up mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
         >
           Learn more about Good Girl Suprême on Fragrantica
         </a>
 
-        <div className="flex justify-center fade-up-two">
+        <div className="fade-up-two flex justify-center">
           <Link
             to="/stories"
-            className="mt-10 px-6 sm:px-8 py-3 bg-textAccent text-backgroundSecondary font-semibold rounded-full shadow-md hover:bg-textAccent/90 transition duration-300 text-base sm:text-lg"
+            className="mt-10 rounded-full bg-white px-6 py-3 text-base font-semibold text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-lg"
           >
             Back to Scent Stories
           </Link>

@@ -5,50 +5,50 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-backgroundPrimary bg-opacity-50 backdrop-blur-md backdrop-filter text-textAccent h-16 fixed top-0 w-full z-50 flex items-center fade-up">
-      <div className="container mx-auto flex justify-between items-center px-4 sm:px-6">
-        <h1 className="text-2xl font-serif font-bold text-center sm:text-left w-full sm:w-auto">
-          <Link to="/" className="hover:text-textAccent/70">
+    <nav className="fade-up fixed top-0 z-50 w-full bg-black text-white">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
+        <h1 className="flex-1 text-center font-serif text-2xl font-bold sm:flex-none sm:text-left">
+          <Link to="/" className="transition duration-200 hover:text-offWhite">
             Scentful Stories
           </Link>
         </h1>
+
         <button
-          className="md:hidden text-textAccent focus:outline-none"
+          className="absolute right-4 transition duration-200 hover:text-offWhite focus:outline-none md:hidden"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle Menu"
         >
           ☰
         </button>
 
-        {/* Links visible on larger screens */}
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden space-x-4 md:flex">
           <Link
             to="/stories"
-            className="hover:text-textAccent/70 transition duration-200"
+            className="transition duration-200 hover:text-offWhite"
           >
             Scent Stories
           </Link>
           <Link
             to="/vocab"
-            className="hover:text-textAccent/70 transition duration-200"
+            className="transition duration-200 hover:text-offWhite"
           >
             Vocab
           </Link>
         </div>
       </div>
 
-      {/* Mobile dropdown menu with fade-in background effect */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-backgroundPrimary bg-opacity-90 backdrop-blur-md backdrop-filter text-center py-4 fade-in-background">
+        <div className="fade-in-background absolute left-0 top-16 w-full bg-black bg-opacity-90 py-4 text-center">
           <Link
             to="/stories"
-            className="block py-2 text-lg font-medium text-textAccent hover:text-highlight transition duration-200"
+            className="block py-2 text-lg font-medium transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
             Scent Stories
           </Link>
           <Link
             to="/vocab"
-            className="block py-2 text-lg font-medium text-textAccent hover:text-highlight transition duration-200"
+            className="block py-2 text-lg font-medium transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
             Vocab
