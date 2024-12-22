@@ -22,7 +22,7 @@ function FragrancePicks() {
             empathy, reflected through scents as inviting as she is.
           </p>
           <Link
-            to="/stories/rachel-ruston"
+            to="/chapters/rachel-ruston"
             className="text-base underline transition duration-200 hover:text-offWhite sm:text-lg"
           >
             View Full Story

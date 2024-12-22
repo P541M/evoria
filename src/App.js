@@ -28,8 +28,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/stories" element={<FragrancePicks />} />
-        <Route path="/stories/:profileId" element={<ProfileLoader />} />
+        <Route path="/chapters" element={<FragrancePicks />} />
+        <Route path="/chapters/:profileId" element={<ProfileLoader />} />
         <Route path="/vocab" element={<Vocab />} />
       </Routes>
     </Router>

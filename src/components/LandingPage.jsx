@@ -24,7 +24,7 @@ function LandingPage() {
       </div>
 
       <button
-        onClick={() => navigate("/stories")}
+        onClick={() => navigate("/chapters")}
         className="fade-up-four rounded-full bg-white px-6 py-3 text-base text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-lg"
       >
         Discover Evoria Chapters

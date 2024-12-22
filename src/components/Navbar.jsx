@@ -23,7 +23,7 @@ function Navbar() {
 
         <div className="hidden space-x-4 md:flex">
           <Link
-            to="/stories"
+            to="/chapters"
             className="transition duration-200 hover:text-offWhite"
           >
             Evoria Chapters
@@ -40,7 +40,7 @@ function Navbar() {
       {isOpen && (
         <div className="fade-in-background absolute left-0 top-16 w-full bg-black bg-opacity-90 py-4 text-center">
           <Link
-            to="/stories"
+            to="/chapters"
             className="block py-2 text-lg transition duration-200 hover:text-offWhite"
             onClick={() => setIsOpen(false)}
           >
