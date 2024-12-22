@@ -6,7 +6,7 @@ function LandingPage() {
 
   return (
     <div className="flex h-screen flex-col items-center justify-center bg-black px-4 text-center text-white sm:px-6 md:px-8 lg:px-16">
-      <h1 className="fade-up mb-8 font-serif text-4xl sm:mb-12 sm:text-5xl">
+      <h1 className="fade-up font-playfair mb-8 text-4xl sm:mb-12 sm:text-5xl">
         Welcome to Scentful Stories
       </h1>
 

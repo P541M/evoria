@@ -7,7 +7,7 @@ function RachelRuston() {
   return (
     <div className="min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
       <div className="mx-auto max-w-4xl">
-        <h1 className="fade-up mb-6 text-center font-serif text-4xl text-white sm:mb-8 sm:text-5xl">
+        <h1 className="fade-up font-playfair mb-6 text-center text-4xl text-white sm:mb-8 sm:text-5xl">
           Rachel Ruston
         </h1>
 

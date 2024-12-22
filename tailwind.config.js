@@ -8,6 +8,9 @@ module.exports = {
         white: "#ffffff",
         offWhite: "#cccccc",
       },
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+      },
     },
   },
   plugins: [],

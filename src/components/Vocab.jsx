@@ -4,13 +4,13 @@ function Vocab() {
   return (
     <div className="min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
       <div className="mx-auto max-w-2xl md:max-w-3xl lg:max-w-4xl">
-        <h2 className="fade-up mb-8 text-center font-serif text-4xl sm:mb-10 sm:text-5xl">
+        <h2 className="fade-up font-playfair mb-8 text-center text-4xl sm:mb-10 sm:text-5xl">
           Vocabulary
         </h2>
 
         <div className="space-y-10 sm:space-y-12">
           <div className="fade-up">
-            <h3 className="mb-5 border-b border-offWhite/40 pb-1 font-serif text-2xl sm:pb-2 sm:text-3xl">
+            <h3 className="font-playfair mb-5 border-b border-offWhite/40 pb-1 text-2xl sm:pb-2 sm:text-3xl">
               Top Notes
             </h3>
             <p className="text-base sm:text-lg">
@@ -21,7 +21,7 @@ function Vocab() {
           </div>
 
           <div className="fade-up-two">
-            <h3 className="mb-5 border-b border-offWhite/40 pb-1 font-serif text-2xl sm:pb-2 sm:text-3xl">
+            <h3 className="font-playfair mb-5 border-b border-offWhite/40 pb-1 text-2xl sm:pb-2 sm:text-3xl">
               Middle Notes / Heart Notes
             </h3>
             <p className="text-base sm:text-lg">
@@ -32,7 +32,7 @@ function Vocab() {
           </div>
 
           <div className="fade-up-three">
-            <h3 className="mb-5 border-b border-offWhite/40 pb-1 font-serif text-2xl sm:pb-2 sm:text-3xl">
+            <h3 className="font-playfair mb-5 border-b border-offWhite/40 pb-1 text-2xl sm:pb-2 sm:text-3xl">
               Base Notes
             </h3>
             <p className="text-base sm:text-lg">
