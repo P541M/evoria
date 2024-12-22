@@ -75,9 +75,18 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="fade-up-three mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
+          className="fade-up-three block text-white underline transition duration-200 hover:text-offWhite "
         >
           Learn more about Delina Exclusif on Fragrantica
+        </a>
+
+        <a
+          href="https://fragrancebuy.ca/products/delinaexclusif-woman"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fade-up-three mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
+        >
+          Purchase Delina Exclusif at FragranceBuy
         </a>
 
         <h2 className="fade-up mb-5 border-b border-white/40 pb-1 text-2xl text-white sm:mb-6 sm:pb-2 sm:text-3xl">
@@ -136,9 +145,18 @@ function RachelRuston() {
           href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="fade-up mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
+          className="fade-up block text-white underline transition duration-200 hover:text-offWhite"
         >
           Learn more about Good Girl Suprême on Fragrantica
+        </a>
+
+        <a
+          href="https://fragrancebuy.ca/products/goodgirlsupreme-woman"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fade-up mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
+        >
+          Purchase Good Girl Suprême at FragranceBuy
         </a>
 
         <div className="fade-up-two flex justify-center">
