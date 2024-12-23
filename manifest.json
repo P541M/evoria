@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Evoria",
+  "name": "Evoria - Curated Fragrance Selections by Eleazar",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,10 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#E6E8EA",
+  "background_color": "#ffffff",
+  "description": "Evoria is a passion project by Eleazar, showcasing a curated selection of fragrances chosen for the people close to him. Each scent reflects a unique character and captures individual essences through storytelling.",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US"
 }
