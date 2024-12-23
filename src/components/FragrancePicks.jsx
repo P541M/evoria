@@ -3,11 +3,18 @@ import { Link } from "react-router-dom";
 
 const chapters = [
   {
-    id: 0,
+    id: 1,
     title: "Rachel Ruston",
     description:
-      'Rachel radiates grace and authority, embodying both "strength" and "warmth". Her scent profile captures her elegance, from daytime notes of calm to evening fragrances that enhance her charisma. Rachel’s story is one of sophistication and empathy, reflected through scents as inviting as she is.',
+      'Rachel radiates grace and authority, embodying both "strength" and "warmth". Her chapter captures her elegance, from daytime notes of calm to evening fragrances that enhance her charisma. Rachel’s story is one of sophistication and empathy, reflected through scents as inviting as she is.',
     link: "/chapters/rachel-ruston",
+  },
+  {
+    id: 2,
+    title: "Kate Tschirhart",
+    description:
+      "Kate exudes vibrant elegance, seamlessly blending energy with warmth. Her chapter combines fresh, uplifting notes with a gentle embrace, reflecting her nurturing and sophisticated spirit. Kate’s story embodies lively grace and attentive presence through dynamic, welcoming scents.",
+    link: "/chapters/kate-tschirhart",
   },
 ];
 

@@ -9,10 +9,12 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import FragrancePicks from "./components/FragrancePicks";
 import RachelRuston from "./components/profiles/RachelRuston";
+import KateTschirhart from "./components/profiles/KateTschirhart";
 import Vocab from "./components/Vocab";
 
 const profileComponents = {
   "rachel-ruston": RachelRuston,
+  "kate-tschirhart": KateTschirhart,
 };
 
 function ProfileLoader() {
