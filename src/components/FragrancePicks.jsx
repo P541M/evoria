@@ -11,7 +11,7 @@ function FragrancePicks() {
       <div className="mx-auto max-w-2xl space-y-10 sm:space-y-12 md:max-w-3xl lg:max-w-5xl">
         <div>
           <h3 className="mb-5 border-b border-offWhite/40 pb-1 font-playfair text-2xl sm:pb-2 sm:text-3xl">
-            Chapter 1. Rachel Ruston
+            Chapter 0. Rachel Ruston
           </h3>
           <p className="mb-6 text-base sm:text-lg">
             Rachel radiates grace and authority, embodying both{" "}
