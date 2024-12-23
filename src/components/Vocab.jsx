@@ -2,8 +2,8 @@ import React from "react";
 
 function Vocab() {
   return (
-    <div className="fade-in min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
-      <div className="mx-auto max-w-2xl md:max-w-3xl lg:max-w-4xl">
+    <div className="fade-in mx-12 min-h-screen bg-black pb-12 pt-28 text-white sm:mx-12 md:mx-14 lg:mx-16">
+      <div className="mx-auto max-w-2xl md:max-w-3xl lg:max-w-5xl">
         <h2 className="mb-8 text-center font-playfair text-4xl sm:mb-10 sm:text-5xl">
           Vocabulary
         </h2>

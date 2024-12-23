@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fade-in-two fixed top-0 z-50 w-full bg-black text-white">
+    <nav className="fade-in-two fixed top-0 z-50 w-full bg-black text-base text-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
         <h1 className="flex-1 text-center font-playfair text-2xl sm:flex-none sm:text-left">
           <Link to="/" className="transition duration-200 hover:text-offWhite">
@@ -38,7 +38,7 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="absolute left-0 top-16 w-full bg-black bg-opacity-90 py-4 text-center">
+        <div className="absolute left-0 top-16 w-full bg-black pb-4 text-center">
           <Link
             to="/chapters"
             className="block py-2 text-lg transition duration-200 hover:text-offWhite"

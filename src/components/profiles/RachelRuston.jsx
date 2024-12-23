@@ -5,8 +5,8 @@ import img2 from "../../assets/rr2.jpg";
 
 function RachelRuston() {
   return (
-    <div className="fade-in min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
-      <div className="mx-auto max-w-4xl">
+    <div className="fade-in mx-12 min-h-screen bg-black pb-12 pt-28 text-white sm:mx-12 md:mx-14 lg:mx-16">
+      <div className="mx-auto max-w-5xl">
         <h1 className="mb-6 text-center font-playfair text-4xl text-white sm:mb-8 sm:text-5xl">
           Rachel Ruston
         </h1>
@@ -24,13 +24,13 @@ function RachelRuston() {
           <img
             src={img1}
             alt="Delina Exclusif Bottle"
-            className="mx-auto mb-6 w-3/4 rounded-xl shadow-lg sm:w-2/3 md:mx-0 md:mb-0 md:mr-6 md:w-1/3"
+            className="mx-auto mb-6 w-3/5 rounded-md shadow-lg sm:w-3/4 md:mx-0 md:mb-0 md:mr-6 md:w-1/4"
           />
 
           <div className="flex-1">
             <p className="mb-4 text-base text-white sm:text-lg">
-              Why Delina Exclusif? Delina Exclusif is an exceptional choice for
-              daily wear because it embodies a balance of{" "}
+              Delina Exclusif is an exceptional choice for daily wear because it
+              embodies a balance of{" "}
               <span className="bg-white/10 italic">elegance</span>,{" "}
               <span className="bg-white/10 italic">strength</span>, and{" "}
               <span className="bg-white/10 italic">approachability</span>—
@@ -58,36 +58,38 @@ function RachelRuston() {
         </section>
 
         <p className="mb-6 text-base text-white sm:text-lg">
-          Occasion: Delina Exclusif is ideal for day-to-day office wear, where
-          you need something that quietly commands respect but remains soft and
-          inviting. Its warm, fruity notes create a subtle signature scent,
-          perfect for an everyday fragrance that won’t be overpowering.
+          Delina Exclusif is ideal for day-to-day office wear, where you need
+          something that quietly commands respect but remains soft and inviting.
+          Its warm, fruity notes create a subtle signature scent, perfect for an
+          everyday fragrance that won’t be overpowering.
         </p>
 
         <p className="mb-6 text-base text-white sm:text-lg">
-          Why Pick Delina Exclusif for Certain Days? Imagine yourself stepping
-          into important meetings, letting this fragrance ground and uplift you.
-          A light application makes this fragrance blend seamlessly into your
-          work environment, complementing your aura of authority and compassion.
+          Imagine yourself stepping into important meetings, letting this
+          fragrance ground and uplift you. A light application makes this
+          fragrance blend seamlessly into your work environment, complementing
+          your aura of authority and compassion.
         </p>
 
-        <a
-          href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-white underline transition duration-200 hover:text-offWhite"
-        >
-          Learn more about Delina Exclusif on Fragrantica
-        </a>
-
-        <a
-          href="https://fragrancebuy.ca/products/delinaexclusif-woman"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
-        >
-          Purchase Delina Exclusif at FragranceBuy
-        </a>
+        <div className="mb-10 space-x-2 text-base sm:mb-12 sm:text-lg">
+          <a
+            href="https://www.fragrantica.com/perfume/Parfums-de-Marly/Delina-Exclusif-50370.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline transition duration-200 hover:text-offWhite"
+          >
+            Learn more about Delina Exclusif on Fragrantica
+          </a>
+          <span className="text-white">|</span>
+          <a
+            href="https://fragrancebuy.ca/products/delinaexclusif-woman"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline transition duration-200 hover:text-offWhite"
+          >
+            Purchase Delina Exclusif at FragranceBuy
+          </a>
+        </div>
 
         <h2 className="mb-5 border-b border-white/40 pb-1 text-2xl text-white sm:mb-6 sm:pb-2 sm:text-3xl">
           Evening Opulence: Carolina Herrera Good Girl Suprême
@@ -97,12 +99,12 @@ function RachelRuston() {
           <img
             src={img2}
             alt="Good Girl Suprême Bottle"
-            className="mx-auto mb-6 w-3/4 rounded-xl shadow-lg sm:w-2/3 md:mx-0 md:mb-0 md:mr-6 md:w-1/3"
+            className="mx-auto mb-6 w-3/5 rounded-md shadow-lg sm:w-3/4 md:mx-0 md:mb-0 md:mr-6 md:w-1/4"
           />
 
           <div className="flex-1">
             <p className="mb-4 text-base text-white sm:text-lg">
-              Why Good Girl Suprême? Good Girl Suprême brings a touch of{" "}
+              Good Girl Suprême brings a touch of{" "}
               <span className="bg-white/10 italic">boldness</span> and{" "}
               <span className="bg-white/10 italic">sophistication</span> that
               shines in social settings. This fragrance resonates with your
@@ -126,38 +128,40 @@ function RachelRuston() {
         </section>
 
         <p className="mb-6 text-base text-white sm:text-lg">
-          Occasion: Good Girl Suprême is best suited for social or evening
-          events where a more pronounced, memorable fragrance is appropriate.
-          The balance of richness and elegance makes it ideal for dinners,
-          gatherings, or professional social events where a bolder yet
-          sophisticated scent can make a statement.
+          Good Girl Suprême is best suited for social or evening events where a
+          more pronounced, memorable fragrance is appropriate. The balance of
+          richness and elegance makes it ideal for dinners, gatherings, or
+          professional social events where a bolder yet sophisticated scent can
+          make a statement.
         </p>
 
         <p className="mb-6 text-base text-white sm:text-lg">
-          Why Pick Good Girl Suprême for Certain Days? Picture yourself at an
-          evening gathering, letting Good Girl Suprême enhance your natural
-          elegance and charm. The grounding vetiver and warm tonka bean create a
-          lasting impression, making it a great choice for enhancing your
-          presence while still reflecting your warmth and strength.
+          Picture yourself at an evening gathering, letting Good Girl Suprême
+          enhance your natural elegance and charm. The grounding vetiver and
+          warm tonka bean create a lasting impression, making it a great choice
+          for enhancing your presence while still reflecting your warmth and
+          strength.
         </p>
 
-        <a
-          href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block text-white underline transition duration-200 hover:text-offWhite"
-        >
-          Learn more about Good Girl Suprême on Fragrantica
-        </a>
-
-        <a
-          href="https://fragrancebuy.ca/products/goodgirlsupreme-woman"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mb-10 block text-white underline transition duration-200 hover:text-offWhite sm:mb-12"
-        >
-          Purchase Good Girl Suprême at FragranceBuy
-        </a>
+        <div className="mb-10 space-x-2 text-base sm:mb-12 sm:text-lg">
+          <a
+            href="https://www.fragrantica.com/perfume/Carolina-Herrera/Good-Girl-Supreme-61769.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline transition duration-200 hover:text-offWhite"
+          >
+            Learn more about Good Girl Suprême on Fragrantica
+          </a>
+          <span className="text-white">|</span>
+          <a
+            href="https://fragrancebuy.ca/products/goodgirlsupreme-woman"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline transition duration-200 hover:text-offWhite"
+          >
+            Purchase Good Girl Suprême at FragranceBuy
+          </a>
+        </div>
 
         <div className="flex justify-center">
           <Link

@@ -5,7 +5,7 @@ function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="fade-in flex h-screen flex-col items-center justify-center bg-black px-4 text-center text-white sm:px-6 md:px-8 lg:px-16">
+    <div className="fade-in mx-12 flex h-screen flex-col items-center justify-center bg-black text-center text-white sm:mx-12 md:mx-14 lg:mx-16">
       <h1 className="mb-8 font-playfair text-4xl sm:mb-12 sm:text-5xl">
         Welcome to Evoria
       </h1>
@@ -17,9 +17,18 @@ function LandingPage() {
           individual’s essence.
         </p>
         <p>
-          Created by Eleazar, this project combines a deep appreciation for
-          scent with a dedication to storytelling. Every fragrance featured here
-          has been handpicked to inspire, evoke, and leave a lasting impression.
+          Created by{" "}
+          <a
+            href="https://p541m.github.io/portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-offWhite underline transition-colors duration-200 hover:text-white"
+          >
+            Eleazar
+          </a>
+          , this project combines a deep appreciation for scent with a
+          dedication to storytelling. Every fragrance featured here has been
+          handpicked to inspire, evoke, and leave a lasting impression.
         </p>
       </div>
 
