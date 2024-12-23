@@ -37,7 +37,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="fade-in-two fixed top-0 z-50 w-full bg-black text-base text-white">
+    <nav className="fade-in-two fixed top-0 z-50 w-full bg-black text-lg text-white">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6">
         <h1 className="flex-1 text-center font-playfair text-2xl sm:flex-none sm:text-left">
           <Link to="/" className="transition duration-200 hover:text-offWhite">

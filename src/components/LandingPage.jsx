@@ -10,11 +10,11 @@ function LandingPage() {
         Welcome to Evoria
       </h1>
 
-      <div className="mb-8 max-w-xl space-y-6 text-base sm:mb-12 sm:max-w-2xl sm:space-y-8 sm:text-lg">
+      <div className="mb-8 max-w-xl space-y-6 text-lg sm:mb-12 sm:max-w-2xl sm:space-y-8 sm:text-xl">
         <p>
-          Evoria is a curated journey through the world of fragrance. Each
-          selection reflects a unique character, chosen to capture an
-          individual’s essence.
+          Evoria is a curated journey through fragrance, each selection
+          reflecting a unique character chosen to capture an individual’s
+          essence.
         </p>
         <p>
           Created by{" "}
@@ -34,7 +34,7 @@ function LandingPage() {
 
       <button
         onClick={() => navigate("/chapters")}
-        className="rounded-full bg-white px-6 py-3 text-base text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-lg"
+        className="rounded-full bg-white px-6 py-3 text-lg text-black shadow-md transition duration-300 hover:bg-offWhite sm:px-8 sm:text-xl"
       >
         Discover Evoria Chapters
       </button>
