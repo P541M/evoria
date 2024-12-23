@@ -5,7 +5,7 @@ function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center bg-black px-4 text-center text-white sm:px-6 md:px-8 lg:px-16">
+    <div className="fade-in flex h-screen flex-col items-center justify-center bg-black px-4 text-center text-white sm:px-6 md:px-8 lg:px-16">
       <h1 className="mb-8 font-playfair text-4xl sm:mb-12 sm:text-5xl">
         Welcome to Evoria
       </h1>

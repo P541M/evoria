@@ -5,7 +5,7 @@ import img2 from "../../assets/rr2.jpg";
 
 function RachelRuston() {
   return (
-    <div className="min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
+    <div className="fade-in min-h-screen bg-black px-4 pb-12 pt-20 text-white sm:px-6 md:px-10 lg:px-16">
       <div className="mx-auto max-w-4xl">
         <h1 className="mb-6 text-center font-playfair text-4xl text-white sm:mb-8 sm:text-5xl">
           Rachel Ruston
