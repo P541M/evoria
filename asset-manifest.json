@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/evoria/static/css/main.c00bb8ac.css",
-    "main.js": "/evoria/static/js/main.f2f76f1d.js",
+    "main.css": "/evoria/static/css/main.5f772c39.css",
+    "main.js": "/evoria/static/js/main.a0ad2854.js",
     "static/media/rr2.jpg": "/evoria/static/media/rr2.fe7a0d66e9f8c02876e3.jpg",
     "static/media/rr1.jpg": "/evoria/static/media/rr1.24742fc6df16d37f2ae3.jpg",
     "index.html": "/evoria/index.html",
-    "main.c00bb8ac.css.map": "/evoria/static/css/main.c00bb8ac.css.map",
-    "main.f2f76f1d.js.map": "/evoria/static/js/main.f2f76f1d.js.map"
+    "main.5f772c39.css.map": "/evoria/static/css/main.5f772c39.css.map",
+    "main.a0ad2854.js.map": "/evoria/static/js/main.a0ad2854.js.map"
   },
   "entrypoints": [
-    "static/css/main.c00bb8ac.css",
-    "static/js/main.f2f76f1d.js"
+    "static/css/main.5f772c39.css",
+    "static/js/main.a0ad2854.js"
   ]
 }
