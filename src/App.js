@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   HashRouter as Router,
   Route,
   Routes,
   useParams,
+  useLocation,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
@@ -24,16 +25,28 @@ function ProfileLoader() {
   return ProfileComponent ? <ProfileComponent /> : <p>Profile not found</p>;
 }
 
+function ScrollToTopWrapper({ children }) {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return children;
+}
+
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/chapters" element={<FragrancePicks />} />
-        <Route path="/chapters/:profileId" element={<ProfileLoader />} />
-        <Route path="/vocab" element={<Vocab />} />
-      </Routes>
+      <ScrollToTopWrapper>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/chapters" element={<FragrancePicks />} />
+          <Route path="/chapters/:profileId" element={<ProfileLoader />} />
+          <Route path="/vocab" element={<Vocab />} />
+        </Routes>
+      </ScrollToTopWrapper>
     </Router>
   );
 }
