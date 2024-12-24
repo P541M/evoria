@@ -28,55 +28,65 @@ function HannahAndreaRosario() {
 
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
-              Goddess Burberry for Women is a fragrance that reflects your
-              confident and discerning essence. With its elegant florals and
-              subtle warmth, it resonates with your ability to balance strength
-              with approachability. This scent enhances your natural grace and
-              boldness, creating a perfect harmony that complements every facet
-              of your character.
+              Goddess Burberry for Women captures the essence of your confident
+              and discerning personality. This elegant fragrance blends the soft
+              sophistication of vanilla and lavender with a touch of warmth and
+              boldness, perfectly reflecting your ability to balance strength
+              and approachability. Its harmonious notes enhance your natural
+              grace and creative spirit, making it an ideal choice for someone
+              as dynamic and poised as you.
             </p>
 
             <div>
               <h3 className="mb-3 text-lg text-white sm:text-xl">Notes:</h3>
               <ul className="ml-4 list-inside list-disc space-y-2 text-lg text-white sm:ml-6 sm:text-xl">
-                <li>Top Notes: Lavender, Mandarin Orange</li>
-                <li>Heart Notes: Jasmine, Tuberose</li>
-                <li>Base Notes: Vanilla, Sandalwood, Amber</li>
+                <li>Top Notes: Vanilla, Lavender, Cacao, Ginger</li>
+                <li>Heart Notes: Vanilla Caviar</li>
+                <li>Base Notes: Vanilla Absolute</li>
               </ul>
             </div>
           </div>
         </section>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Goddess Burberry transitions seamlessly through your day, exuding a
-          perfect blend of creativity and grounded sophistication. Its floral
-          notes capture your approachable charm, while its warm base creates an
-          aura of quiet confidence.
+          Goddess Burberry is more than just a scent—it’s a statement of who you
+          are. The richness of vanilla paired with the fresh elegance of
+          lavender creates an aura of quiet confidence and understated power.
+          Its refined warmth reflects your ability to inspire and connect with
+          others effortlessly. This fragrance enhances your grounded
+          sophistication, making it a seamless extension of your bold yet
+          inviting personality. Perfect for someone who values a scent as
+          multi-faceted as their own character.
         </p>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Imagine the confident aroma of lavender and jasmine enhancing your
-          every moment. Goddess Burberry becomes an essential part of your
-          story, reflecting your bold and professional yet inviting spirit.
+          Picture yourself stepping into a room filled with opportunity, whether
+          it’s a pivotal business meeting, a creative endeavor, or an evening
+          social event. The delicate blend of vanilla and lavender fills the
+          air, complementing your commanding presence and approachable charm.
+          Goddess Burberry is perfect for scenarios that call for strength and
+          refinement, from professional milestones to celebratory moments.
+          Wherever life takes you, this fragrance elevates the experience,
+          grounding you in confidence and grace.
         </p>
 
         <div className="mb-10 space-x-2 text-lg sm:mb-12 sm:text-xl">
           <a
-            href="https://www.fragrantica.com/perfume/Burberry/Goddess-123456.html"
+            href="https://www.fragrantica.com/perfume/Burberry/Goddess-83483.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Learn more about Goddess Burberry on Fragrantica
+            Learn more about Goddess on Fragrantica
           </a>
           <span className="text-white">|</span>
           <a
-            href="https://fragrancebuy.ca/products/goddessburberry-woman"
+            href="https://fragrancebuy.ca/products/burberrygoddessintense-woman"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Purchase Goddess Burberry at FragranceBuy
+            Purchase Goddess at FragranceBuy
           </a>
         </div>
 

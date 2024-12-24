@@ -30,54 +30,61 @@ function LynaTran() {
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
               Gucci Flora Gorgeous Gardenia mirrors your vibrant energy and
-              effortless charm. With sweet florals like gardenia and tuberose
-              paired with fruity undertones of pear and mandarin orange, this
-              fragrance perfectly captures your lively and graceful spirit. It’s
-              an ideal choice for days filled with laughter and meaningful
-              moments, reflecting the joy you bring to those around you.
+              effortless charm. With sweet florals like gardenia, jasmine, and
+              frangipani balanced by fruity touches of pear blossom, red
+              berries, and Italian mandarin, this fragrance perfectly embodies
+              your lively and graceful spirit. It’s the ideal choice for days
+              filled with joy and meaningful connections, reflecting the
+              happiness you bring to those around you.
             </p>
 
             <div>
               <h3 className="mb-3 text-lg text-white sm:text-xl">Notes:</h3>
               <ul className="ml-4 list-inside list-disc space-y-2 text-lg text-white sm:ml-6 sm:text-xl">
-                <li>Top Notes: Pear, Mandarin Orange</li>
-                <li>Heart Notes: Gardenia, Tuberose</li>
-                <li>Base Notes: Musk, Cedarwood</li>
+                <li>Top Notes: Pear Blossom, Red Berries, Italian Mandarin</li>
+                <li>Heart Notes: Gardenia, Jasmine, Frangipani</li>
+                <li>Base Notes: Brown Sugar, Patchouli</li>
               </ul>
             </div>
           </div>
         </section>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Flora Gorgeous Gardenia adds a touch of playful elegance to your day.
-          Its light and inviting aroma complements your friendly and cheerful
-          personality, making it the perfect companion for casual gatherings or
-          tranquil moments.
+          Gucci Flora Gorgeous Gardenia is more than a fragrance—it's an
+          extension of your bright and engaging personality. Its sweet, fresh
+          scent brings your vibrant presence to life while maintaining an air of
+          elegance and approachability. The combination of light fruitiness and
+          warm, floral sophistication creates an aura that is both memorable and
+          inviting, perfect for someone who effortlessly balances charm and
+          warmth.
         </p>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Picture yourself walking into a sunlit room, the soft notes of
-          gardenia and pear creating an aura of joy and warmth that resonates
-          with your genuine and approachable nature.
+          Picture yourself at a sun-dappled brunch with friends, laughter
+          filling the air as you shine in the moment. The uplifting notes of
+          pear blossom and Italian mandarin mingle with the delicate florals of
+          gardenia and jasmine, making it the perfect scent for casual
+          gatherings, relaxed afternoons, or peaceful moments of reflection.
+          It’s a fragrance for occasions where your radiance takes center stage.
         </p>
 
         <div className="mb-10 space-x-2 text-lg sm:mb-12 sm:text-xl">
           <a
-            href="https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-12345.html"
+            href="https://www.fragrantica.com/perfume/Gucci/Flora-Gorgeous-Gardenia-68578.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Learn more about Gucci Flora Gorgeous Gardenia on Fragrantica
+            Learn more about Flora Gorgeous Gardenia on Fragrantica
           </a>
           <span className="text-white">|</span>
           <a
-            href="https://fragrancebuy.ca/products/guccifloragardenia-woman"
+            href="https://fragrancebuy.ca/products/guccifloragorgeousgardeniaedpedition-woman"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Purchase Gucci Flora Gorgeous Gardenia at FragranceBuy
+            Purchase Flora Gorgeous Gardenia at FragranceBuy
           </a>
         </div>
 
@@ -94,53 +101,61 @@ function LynaTran() {
 
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
-              Ariana Grande Pink Cloud encapsulates your dreamy, whimsical side.
-              With its delicate blend of lavender, coconut, and vanilla, this
-              fragrance evokes a sense of sweetness and lightness. It’s a
-              perfect match for evenings where you shine with your approachable
-              charm and enchanting warmth.
+              Ariana Grande Pink Cloud encapsulates your whimsical and dreamy
+              nature, combining playful sweetness with enchanting
+              sophistication. With vibrant notes of pitahaya, wild berries, and
+              pineapple softened by coconut water and vanilla orchid, this
+              fragrance perfectly matches your warm, approachable charm. It’s
+              the ideal choice for magical evenings where your vibrant spirit
+              shines.
             </p>
 
             <div>
               <h3 className="mb-3 text-lg text-white sm:text-xl">Notes:</h3>
               <ul className="ml-4 list-inside list-disc space-y-2 text-lg text-white sm:ml-6 sm:text-xl">
-                <li>Top Notes: Lavender, Bergamot</li>
-                <li>Heart Notes: Coconut, Berries</li>
-                <li>Base Notes: Vanilla, Cashmere Musk</li>
+                <li>Top Notes: Pitahaya, Wild Berries, Pineapple</li>
+                <li>Heart Notes: Coconut Water, Vanilla Orchid, Ambrette</li>
+                <li>Base Notes: Praline, Musk, Amberwood, Moss</li>
               </ul>
             </div>
           </div>
         </section>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Pink Cloud is the perfect scent for evenings spent connecting with
-          loved ones or unwinding under the stars. Its soft and sweet notes
-          enhance your natural friendliness and make every moment feel magical.
+          Pink Cloud is an irresistible blend of sweetness and elegance that
+          enhances your friendly and vibrant personality. The tropical burst of
+          pitahaya and wild berries creates an inviting energy, while the
+          coconut water and praline add a cozy, comforting dimension. This
+          fragrance is perfect for anyone who loves to balance playfulness with
+          sophistication, making every moment feel special and connected.
         </p>
 
         <p className="mb-8 text-lg text-white sm:text-xl">
-          Imagine an evening filled with laughter and joy, the comforting scent
-          of Pink Cloud wrapping around you like a cozy embrace, highlighting
-          your bright and welcoming personality.
+          Picture yourself enjoying a serene evening under a canopy of stars,
+          laughter echoing as the sweet yet grounding aroma of Pink Cloud
+          surrounds you. Its fruity top notes and soft, warm base make it the
+          perfect companion for heartfelt gatherings, quiet self-care rituals,
+          or spontaneous adventures with friends. Wherever the evening takes
+          you, Pink Cloud ensures you carry a sense of magic and joy.
         </p>
 
         <div className="mb-10 space-x-2 text-lg sm:mb-12 sm:text-xl">
           <a
-            href="https://www.fragrantica.com/perfume/Ariana-Grande/Pink-Cloud-67890.html"
+            href="https://www.fragrantica.com/perfume/Ariana-Grande/Cloud-Pink-83995.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Learn more about Ariana Grande Pink Cloud on Fragrantica
+            Learn more about Pink Cloud on Fragrantica
           </a>
           <span className="text-white">|</span>
           <a
-            href="https://fragrancebuy.ca/products/arianagrandepinkcloud-woman"
+            href="https://fragrancebuy.ca/products/arianagrandecloudpink-woman"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white underline transition duration-200 hover:text-offWhite"
           >
-            Purchase Ariana Grande Pink Cloud at FragranceBuy
+            Purchase Pink Cloud at FragranceBuy
           </a>
         </div>
 

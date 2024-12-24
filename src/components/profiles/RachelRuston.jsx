@@ -89,7 +89,7 @@ function RachelRuston() {
         </div>
 
         <h2 className="mb-5 border-b border-offWhite/40 pb-1 font-playfair text-2xl sm:pb-2 sm:text-3xl">
-          Evening Opulence: Carolina Herrera Good Girl Suprême
+          Signature Evening Scent: Carolina Herrera Good Girl Suprême
         </h2>
 
         <section className="mb-10 flex flex-col items-start sm:mb-12 md:flex-row">
