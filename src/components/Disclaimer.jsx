@@ -44,7 +44,7 @@ function Disclaimer() {
             </h2>
             <p className="text-lg sm:text-xl">
               I want to emphasize that you are under no obligation to purchase
-              the fragrances featured in our chapters. These selections are
+              the fragrances featured in the chapters. These selections are
               meant to inspire and guide you but should not dictate your
               choices. Always prioritize what you truly love and enjoy.
             </p>
