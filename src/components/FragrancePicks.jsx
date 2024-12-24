@@ -6,28 +6,28 @@ const chapters = [
     id: 1,
     title: "Rachel Ruston",
     description:
-      'Rachel radiates grace and authority, embodying both "strength" and "warmth". Her chapter captures her elegance, from daytime notes of calm to evening fragrances that enhance her charisma. Rachel’s story is one of sophistication and empathy, reflected through scents as inviting as she is.',
+      "Rachel exudes poise and warmth, blending calm energy with evening refinement. Her chapter captures elegance through fragrances that mirror her empathetic spirit. Rachel’s story is one of sophistication and kindness, creating an inviting presence that feels effortlessly graceful.",
     link: "/chapters/rachel-ruston",
   },
   {
     id: 2,
     title: "Kate Tschirhart",
     description:
-      "Kate exudes vibrant elegance, seamlessly blending energy with warmth. Her chapter combines fresh, uplifting notes with a gentle embrace, reflecting her nurturing and sophisticated spirit. Kate’s story embodies lively grace and attentive presence through dynamic, welcoming scents.",
+      "Kate’s vibrant elegance shines in every detail, merging uplifting energy with gentle warmth. Her chapter flows with dynamic notes that reflect her nurturing and lively nature. Kate’s story celebrates her balance of spirited charm and grace through scents that are both vibrant and welcoming.",
     link: "/chapters/kate-tschirhart",
   },
   {
     id: 3,
     title: "Lyna Tran",
     description:
-      "Lyna embodies a light-hearted charm and a genuine warmth that draws people to her. Her chapter unfolds in soft, delightful notes, reflecting her vibrant yet cozy essence. Lyna’s story captures the balance of simplicity and sweetness, mirrored through scents that celebrate her cheerful and approachable spirit.",
+      "Lyna radiates approachable charm with her vibrant yet cozy demeanor. Her chapter unfolds with soft, joyful notes that evoke warmth and cheer. Lyna’s story balances playful simplicity and genuine sweetness, mirrored through fragrances that celebrate her lighthearted and inviting essence.",
     link: "/chapters/lyna-tran",
   },
   {
     id: 4,
     title: "Hannah Andrea Rosario",
     description:
-      "Hannah exudes a bold and discerning charm, blending creativity with sophistication. Her chapter unfolds with a fragrance that captures her balanced essence, reflecting confidence, elegance, and approachability. Hannah’s story is one of grace and strength, wrapped in a scent as dynamic and refined as she is.",
+      "Hannah’s bold sophistication and creative spirit define her magnetic presence. Her chapter reveals fragrances blending confidence with graceful refinement. Hannah’s story reflects a harmony of strength and elegance, brought to life through scents as dynamic and polished as she is.",
     link: "/chapters/hannah-andrea-rosario",
   },
 ];
