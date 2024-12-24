@@ -75,7 +75,10 @@ function FragrancePicks() {
               <h2 className="mb-5 border-b border-offWhite/40 pb-1 font-playfair text-2xl sm:pb-2 sm:text-3xl">
                 {`Chapter ${chapter.id}. ${chapter.title}`}
               </h2>
-              <p className="mb-6 text-lg sm:text-xl">{chapter.description}</p>
+              <p className="mb-6 border-l-4 border-offWhite/40 pl-3 text-lg sm:pl-5 sm:text-xl">
+                {chapter.description}
+              </p>
+
               <Link
                 to={chapter.link}
                 className="text-lg underline transition duration-200 hover:text-offWhite sm:text-xl"
