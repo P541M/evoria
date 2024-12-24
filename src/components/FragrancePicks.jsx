@@ -16,6 +16,13 @@ const chapters = [
       "Kate exudes vibrant elegance, seamlessly blending energy with warmth. Her chapter combines fresh, uplifting notes with a gentle embrace, reflecting her nurturing and sophisticated spirit. Kate’s story embodies lively grace and attentive presence through dynamic, welcoming scents.",
     link: "/chapters/kate-tschirhart",
   },
+  {
+    id: 3,
+    title: "Lyna Tran",
+    description:
+      "Lyna embodies a light-hearted charm and a genuine warmth that draws people to her. Her chapter unfolds in soft, delightful notes, reflecting her vibrant yet cozy essence. Lyna’s story captures the balance of simplicity and sweetness, mirrored through scents that celebrate her cheerful and approachable spirit.",
+    link: "/chapters/lyna-tran",
+  },
 ];
 
 function FragrancePicks() {

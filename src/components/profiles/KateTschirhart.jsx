@@ -29,9 +29,7 @@ function KateTschirhart() {
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
               Eau des Merveilles is an exceptional choice for you because it
-              embodies a harmony of{" "}
-              <span className="bg-white/10 italic">light freshness</span>, and{" "}
-              <span className="bg-white/10 italic">subtle warmth</span>—
+              embodies a harmony of light freshness, and subtle warmth—
               qualities that truly reflect your charismatic and loving nature.
               This fragrance blends sophistication with a cozy undertone, making
               it feel both polished and inviting. It’s versatile enough to

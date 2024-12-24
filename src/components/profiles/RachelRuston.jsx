@@ -30,10 +30,7 @@ function RachelRuston() {
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
               Delina Exclusif is an exceptional choice for daily wear because it
-              embodies a balance of{" "}
-              <span className="bg-white/10 italic">elegance</span>,{" "}
-              <span className="bg-white/10 italic">strength</span>, and{" "}
-              <span className="bg-white/10 italic">approachability</span>—
+              embodies a balance of elegance, strength, and approachability—
               qualities that truly reflect you. This fragrance combines
               sophistication with subtle warmth, making it feel polished yet
               inviting. It’s refined enough for a professional setting and
@@ -104,10 +101,8 @@ function RachelRuston() {
 
           <div className="flex-1">
             <p className="mb-8 text-lg text-white sm:text-xl">
-              Good Girl Suprême brings a touch of{" "}
-              <span className="bg-white/10 italic">boldness</span> and{" "}
-              <span className="bg-white/10 italic">sophistication</span> that
-              shines in social settings. This fragrance resonates with your
+              Good Girl Suprême brings a touch of boldness and sophistication
+              that shines in social settings. This fragrance resonates with your
               natural ability to stand out effortlessly while staying grounded.
               With its balance of berries, tonka bean, and vetiver, it’s both
               rich and inviting—qualities that align with your leadership style
