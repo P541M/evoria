@@ -57,7 +57,7 @@ function FragrancePicks() {
           placeholder="Search for a chapter..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full rounded-full border border-offWhite/40 bg-black p-3 pl-5 text-lg text-offWhite placeholder-offWhite transition duration-200 focus:outline-none focus:ring-2 focus:ring-offWhite/70 sm:text-xl"
+          className="w-full rounded-full border border-offWhite/40 bg-black p-3 pl-5 text-base text-offWhite placeholder-offWhite transition duration-200 focus:outline-none focus:ring-2 focus:ring-offWhite/70 sm:text-lg"
         />
       </div>
 
