@@ -13,6 +13,7 @@ import RachelRuston from "./components/profiles/RachelRuston";
 import KateTschirhart from "./components/profiles/KateTschirhart";
 import LynaTran from "./components/profiles/LynaTran";
 import HannahAndreaRosario from "./components/profiles/HannahAndreaRosario";
+import CallieGibson from "./components/profiles/CallieGibson";
 import Vocab from "./components/Vocab";
 import Disclaimer from "./components/Disclaimer";
 
@@ -21,6 +22,7 @@ const profileComponents = {
   "kate-tschirhart": KateTschirhart,
   "lyna-tran": LynaTran,
   "hannah-andrea-rosario": HannahAndreaRosario,
+  "callie-gibson": CallieGibson,
 };
 
 function ProfileLoader() {

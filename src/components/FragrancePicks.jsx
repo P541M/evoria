@@ -30,6 +30,13 @@ const chapters = [
       "Hannah’s bold sophistication and creative spirit define her magnetic presence. Her chapter reveals fragrances blending confidence with graceful refinement. Hannah’s story reflects a harmony of strength and elegance, brought to life through scents as dynamic and polished as she is.",
     link: "/chapters/hannah-andrea-rosario",
   },
+  {
+    id: 5,
+    title: "Callie Gibson",
+    description:
+      "Callie’s story is one of quiet brilliance and artistic elegance. Her chapter weaves vibrant, fresh notes with deeper, contemplative undertones, reflecting her adaptable and soulful nature. Each fragrance echoes her thoughtful presence and creative spirit, leaving a lasting impression of warmth and sophistication.",
+    link: "/chapters/callie-gibson",
+  },
 ];
 
 function FragrancePicks() {
