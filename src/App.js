@@ -12,12 +12,14 @@ import FragrancePicks from "./components/FragrancePicks";
 import RachelRuston from "./components/profiles/RachelRuston";
 import KateTschirhart from "./components/profiles/KateTschirhart";
 import LynaTran from "./components/profiles/LynaTran";
+import HannahAndreaRosario from "./components/profiles/HannahAndreaRosario";
 import Vocab from "./components/Vocab";
 
 const profileComponents = {
   "rachel-ruston": RachelRuston,
   "kate-tschirhart": KateTschirhart,
   "lyna-tran": LynaTran,
+  "hannah-andrea-rosario": HannahAndreaRosario,
 };
 
 function ProfileLoader() {
