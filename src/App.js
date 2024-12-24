@@ -14,6 +14,7 @@ import KateTschirhart from "./components/profiles/KateTschirhart";
 import LynaTran from "./components/profiles/LynaTran";
 import HannahAndreaRosario from "./components/profiles/HannahAndreaRosario";
 import Vocab from "./components/Vocab";
+import Disclaimer from "./components/Disclaimer";
 
 const profileComponents = {
   "rachel-ruston": RachelRuston,
@@ -49,6 +50,7 @@ function App() {
           <Route path="/chapters" element={<FragrancePicks />} />
           <Route path="/chapters/:profileId" element={<ProfileLoader />} />
           <Route path="/vocab" element={<Vocab />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />{" "}
         </Routes>
       </ScrollToTopWrapper>
     </Router>

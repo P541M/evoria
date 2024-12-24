@@ -69,6 +69,12 @@ function Navbar() {
           >
             Vocab
           </Link>
+          <Link
+            to="/disclaimer"
+            className="transition duration-200 hover:text-offWhite"
+          >
+            Disclaimer
+          </Link>
         </div>
       </div>
 
@@ -91,6 +97,13 @@ function Navbar() {
             onClick={() => setIsOpen(false)}
           >
             Vocab
+          </Link>
+          <Link
+            to="/disclaimer"
+            className="block py-2 text-lg transition duration-200 hover:text-offWhite"
+            onClick={() => setIsOpen(false)}
+          >
+            Disclaimer
           </Link>
         </div>
       )}
